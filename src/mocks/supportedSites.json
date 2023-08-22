@@ -1,0 +1,75 @@
+{
+  "response": {
+    "code": 200,
+    "message": "Success"
+  },
+  "sites": [
+    {
+      "site_id": 100,
+      "display_name": "PokerStars",
+      "icon": {
+        "path": "C:\\Program Files (x86)\\PokerTracker4\\Data\\Images\\Icons\\site_100.png",
+        "title": "PokerStars icon"
+      },
+      "is_auto_import": true,
+      "is_converter": false
+    },
+    {
+      "site_id": 200,
+      "display_name": "partypoker",
+      "icon": {
+        "path": "C:\\Program Files (x86)\\PokerTracker4\\Data\\Images\\Icons\\site_200.png"
+      },
+      "is_auto_import": true,
+      "is_converter": false
+    },
+    {
+      "site_id": 300,
+      "display_name": "Full Tilt",
+      "icon": {
+        "path": "C:\\Program Files (x86)\\PokerTracker4\\Data\\Images\\Icons\\site_300.png",
+        "title": null
+      },
+      "is_auto_import": false,
+      "is_converter": false
+    },
+    {
+      "site_id": 400,
+      "display_name": "iPoker Network",
+      "icon": {
+        "path": "C:\\Program Files (x86)\\PokerTracker4\\Data\\Images\\Icons\\site_400.png",
+        "title": "iPoker icon"
+      },
+      "is_auto_import": true,
+      "is_converter": false
+    },
+    {
+      "site_id": 500,
+      "display_name": "Everest",
+      "icon": {
+        "path": "C:\\Program Files (x86)\\PokerTracker4\\Data\\Images\\Icons\\site_500.png"
+      },
+      "is_auto_import": false,
+      "is_converter": false
+    },
+    {
+      "site_id": 600,
+      "display_name": "OnGame",
+      "icon": {
+        "path": "C:\\Program Files (x86)\\PokerTracker4\\Data\\Images\\Icons\\site_600.png"
+      },
+      "is_auto_import": false,
+      "is_converter": false
+    },
+    {
+      "site_id": 700,
+      "display_name": "GTech G2 (Boss)",
+      "icon": {
+        "path": "C:\\Program Files (x86)\\PokerTracker4\\Data\\Images\\Icons\\site_700.png",
+        "title": "PokerStars icon"
+      },
+      "is_auto_import": true,
+      "is_converter": false
+    }
+  ]
+}

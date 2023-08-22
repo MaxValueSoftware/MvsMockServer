@@ -1,44 +1,51 @@
 import { Request, Response } from 'express'
 
-import { okay } from '../../utils/httpResponses'
-import { generateHandsSummaryData } from '../../utils/generateHandsSummaryData'
+import { badRequest, okay } from '../../utils/httpResponses'
+import { generateRandomValue } from '../../utils/generateRandomValue'
+import supportedSites from '../../mocks/supportedSites.json'
 
-export const openVideoPlayerPlayPoker = (req: Request, res: Response) => {
-  const data = {
-    window_id: 'video_player',
-    video_id: 'play_poker_video',
+const successResponse = {
+  response: {
+    code: 200,
+    message: 'Success',
+  },
+}
+
+export const getTableReport = (req: Request, res: Response) => {
+  // TODO: Need the mock data for this
+  okay(res, [])
+}
+
+export const getSupportedSites = (req: Request, res: Response) => {
+  okay(res, supportedSites)
+}
+
+export const triggerAutoImport = (req: Request, res: Response) => {
+  const { action } = req.body
+
+  if (action !== 'start' && action !== 'stop') {
+    return badRequest(res, { message: 'Invalid action' })
   }
 
-  okay(res, data)
+  okay(res, successResponse)
 }
 
-export const openConfigureSitesWindow = (req: Request, res: Response) => {
-  const data = {
-    window_id: 'configure_sites',
-    options: { side_id: Math.floor(Math.random() * 100) % 50 },
-  }
-
-  okay(res, data)
+export const openWindow = (req: Request, res: Response) => {
+  const { window_id, options } = req.body
+  okay(res, successResponse)
 }
 
-export const viewActiveTables = (req: Request, res: Response) => {
-  const data = { report_name: 'view_active_tables' }
-
-  okay(res, data)
+export const saveSetting = (req: Request, res: Response) => {
+  const { key, value } = req.body
+  okay(res, successResponse)
 }
 
-export const viewTodaysHandsSummaryCash = (req: Request, res: Response) => {
-  okay(res, generateHandsSummaryData('view_todays_hands_cash'))
+export const getSetting = (req: Request, res: Response) => {
+  const { key } = req.body
+  okay(res, { ...successResponse, value: generateRandomValue() })
 }
 
-export const viewTodaysHandsSummaryTournament = (req: Request, res: Response) => {
-  okay(res, generateHandsSummaryData('view_todays_hands_tournament'))
-}
-
-export const viewTodaysHandsMyHandsCash = (req: Request, res: Response) => {
-  okay(res, generateHandsSummaryData('view_todays_hands_myhands_cash'))
-}
-
-export const viewTodaysHandsMyHandsTournament = (req: Request, res: Response) => {
-  okay(res, generateHandsSummaryData('view_todays_hands_myhands_tournament'))
+export const logMessage = (req: Request, res: Response) => {
+  const { messages } = req.body
+  okay(res, successResponse)
 }

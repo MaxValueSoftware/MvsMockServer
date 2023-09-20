@@ -1,0 +1,427 @@
+{
+	"response": {
+		"code": 200,
+		"message": "OK"
+	},
+	"settings": {
+		"isInstalled": true,
+		"handHistoryDirectories": [
+			"/Users/Derek/Library/Application Support/PokerStars/history"
+		],
+		"getHandsWhilePlaying": true,
+		"hideSite": false,
+		"autoCenter": false,
+		"memoryGrabber": true,
+		"enableFastFold": true,
+		"preferredSeat": [
+			{
+				"tableSize": 10,
+				"selectedSeat": null,
+				"seats": [
+					{
+						"seatNumber": 1,
+						"isSelected": false,
+						"coords": {
+							"xcoord": 0.5,
+							"ycoord": 0
+						}
+					},
+					{
+						"seatNumber": 2,
+						"isSelected": false,
+						"coords": {
+							"xcoord": 0.73,
+							"ycoord": 0.0
+						}
+					},
+					{
+						"seatNumber": 3,
+						"isSelected": false,
+						"coords": {
+							"xcoord": 1.0,
+							"ycoord": 0.37
+						}
+					},
+					{
+						"seatNumber": 4,
+						"isSelected": false,
+						"coords": {
+							"xcoord": 1.0,
+							"ycoord": 0.68
+						}
+					},
+					{
+						"seatNumber": 5,
+						"isSelected": false,
+						"coords": {
+							"xcoord": 0.73,
+							"ycoord": 1.0
+						}
+					},
+					{
+						"seatNumber": 6,
+						"isSelected": false,
+						"coords": {
+							"xcoord": 0.5,
+							"ycoord": 1.0
+						}
+					},
+					{
+						"seatNumber": 7,
+						"isSelected": false,
+						"coords": {
+							"xcoord": 0.27,
+							"ycoord": 1.0
+						}
+					},
+					{
+						"seatNumber": 8,
+						"isSelected": false,
+						"coords": {
+							"xcoord": 0.0,
+							"ycoord": 0.68
+						}
+					},
+					{
+						"seatNumber": 9,
+						"isSelected": false,
+						"coords": {
+							"xcoord": 0.0,
+							"ycoord": 0.37
+						}
+					},
+					{
+						"seatNumber": 10,
+						"isSelected": false,
+						"coords": {
+							"xcoord": 0.27,
+							"ycoord": 0.0
+						}
+					}
+
+				]
+			}, 
+			{
+				"tableSize": 9,
+				"selectedSeat": 5,
+				"seats": [
+					{
+						"seatNumber": 1,
+						"isSelected": false,
+						"coords": {
+							"xcoord": 0.65,
+							"ycoord": 0.0
+						}
+					},
+					{
+						"seatNumber": 2,
+						"isSelected": false,
+						"coords": {
+							"xcoord": 0.87,
+							"ycoord": 0.25
+						}
+					},
+					{
+						"seatNumber": 3,
+						"isSelected": false,
+						"coords": {
+							"xcoord": 1.0,
+							"ycoord": 0.53
+						}
+					},
+					{
+						"seatNumber": 4,
+						"isSelected": false,
+						"coords": {
+							"xcoord": 0.8,
+							"ycoord": 0.83
+						}
+					},
+					{
+						"seatNumber": 5,
+						"isSelected": false,
+						"coords": {
+							"xcoord": 0.5,
+							"ycoord": 1.0
+						}
+					},
+					{
+						"seatNumber": 6,
+						"isSelected": false,
+						"coords": {
+							"xcoord": 0.2,
+							"ycoord": 0.83
+						}
+					},
+					{
+						"seatNumber": 7,
+						"isSelected": false,
+						"coords": {
+							"xcoord": 0.0,
+							"ycoord": 0.53
+						}
+					},
+					{
+						"seatNumber": 8,
+						"isSelected": false,
+						"coords": {
+							"xcoord": 0.03,
+							"ycoord": 0.25
+						}
+					},
+					{
+						"seatNumber": 9,
+						"isSelected": false,
+						"coords": {
+							"xcoord": 0.35,
+							"ycoord": 0.0
+						}
+					}
+				]
+			},
+			{
+				"tableSize": 8,
+				"seats": [
+					{
+						"seatNumber": 1,
+						"isSelected": false,
+						"coords": {
+							"xcoord": 0.5,
+							"ycoord": 0.0
+						}
+					},
+					{
+						"seatNumber": 2,
+						"isSelected": false,
+						"coords": {
+							"xcoord": 0.85,
+							"ycoord": 0.18
+						}
+					},
+					{
+						"seatNumber": 3,
+						"isSelected": false,
+						"coords": {
+							"xcoord": 1.0,
+							"ycoord": 0.5
+						}
+					},
+					{
+						"seatNumber": 4,
+						"isSelected": false,
+						"coords": {
+							"xcoord": 0.85,
+							"ycoord": 0.82
+						}
+					},
+					{
+						"seatNumber": 5,
+						"isSelected": false,
+						"coords": {
+							"xcoord": 0.5,
+							"ycoord": 1.0
+						}
+					},
+					{
+						"seatNumber": 6,
+						"isSelected": false,
+						"coords": {
+							"xcoord": 0.15,
+							"ycoord": 0.18
+						}
+					},
+					{
+						"seatNumber": 7,
+						"isSelected": false,
+						"coords": {
+							"xcoord": 0.0,
+							"ycoord": 0.5
+						}
+					},
+					{
+						"seatNumber": 8,
+						"isSelected": false,
+						"coords": {
+							"xcoord": 0.15,
+							"ycoord": 0.82
+						}
+					}
+				]			
+			},
+			{
+				"tableSize": 7,
+				"seats": [
+					{
+						"seatNumber": 1,
+						"isSelected": false,
+						"coords": {
+							"xcoord": 0.65,
+							"ycoord": 0.0
+						}
+					},
+					{
+						"seatNumber": 2,
+						"isSelected": false,
+						"coords": {
+							"xcoord": 1.0,
+							"ycoord": 0.32
+						}
+					},
+					{
+						"seatNumber": 3,
+						"isSelected": false,
+						"coords": {
+							"xcoord": 1.0,
+							"ycoord": 0.62
+						}
+					},
+					{
+						"seatNumber": 4,
+						"isSelected": false,
+						"coords": {
+							"xcoord": 0.5,
+							"ycoord": 1.0
+						}
+					},
+					{
+						"seatNumber": 5,
+						"isSelected": false,
+						"coords": {
+							"xcoord": 0.0,
+							"ycoord": 0.62
+						}
+					},
+					{
+						"seatNumber": 6,
+						"isSelected": false,
+						"coords": {
+							"xcoord": 0.0,
+							"ycoord": 0.32
+						}
+					},
+					{
+						"seatNumber": 7,
+						"isSelected": false,
+						"coords": {
+							"xcoord": 0.35,
+							"ycoord": 0.0
+						}
+					}
+				]					
+			},
+			{
+				"tableSize": 6,
+				"selectedSeat": 4,
+				"seats": [
+					{
+						"seatNumber": 1,
+						"isSelected": false,
+						"coords": {
+							"xcoord": 0.5,
+							"ycoord": 0.0
+						}
+					},
+					{
+						"seatNumber": 2,
+						"isSelected": false,
+						"coords": {
+							"xcoord": 0.87,
+							"ycoord": 0.25
+						}
+					},
+					{
+						"seatNumber": 3,
+						"isSelected": false,
+						"coords": {
+							"xcoord": 1.0,
+							"ycoord": 0.67
+						}
+					},
+					{
+						"seatNumber": 4,
+						"isSelected": false,
+						"coords": {
+							"xcoord": 0.5,
+							"ycoord": 1.0
+						}
+					},
+					{
+						"seatNumber": 5,
+						"isSelected": false,
+						"coords": {
+							"xcoord": 0.0,
+							"ycoord": 0.67
+						}
+					},
+					{
+						"seatNumber": 6,
+						"isSelected": false,
+						"coords": {
+							"xcoord": 0.13,
+							"ycoord": 0.25
+						}
+					}
+				]						
+			},
+			{
+				"tableSize": 4,
+				"seats": [
+					{
+						"seatNumber": 1,
+						"isSelected": false,
+						"coords": {
+							"xcoord": 0.5,
+							"ycoord": 0.0
+						}
+					},
+					{
+						"seatNumber": 2,
+						"isSelected": false,
+						"coords": {
+							"xcoord": 1.0,
+							"ycoord": 0.5
+						}
+					},
+					{
+						"seatNumber": 3,
+						"isSelected": false,
+						"coords": {
+							"xcoord": 0.5,
+							"ycoord": 1.0
+						}
+					},
+					{
+						"seatNumber": 4,
+						"isSelected": false,
+						"coords": {
+							"xcoord": 0.0,
+							"ycoord": 0.5
+						}
+					}
+				]					
+			},
+			{
+				"tableSize": 2,
+				"selectedSeat": 2,
+				"seats": [
+					{
+						"seatNumber": 1,
+						"isSelected": false,
+						"coords": {
+							"xcoord": 0.5,
+							"ycoord": 0.0
+						}
+					},
+					{
+						"seatNumber": 2,
+						"isSelected": false,
+						"coords": {
+							"xcoord": 0.5,
+							"ycoord": 1.0
+						}
+					}
+				]							
+			}
+		]
+	}
+}

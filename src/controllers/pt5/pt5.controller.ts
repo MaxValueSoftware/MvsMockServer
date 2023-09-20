@@ -3,6 +3,7 @@ import { Request, Response } from 'express'
 import { badRequest, okay } from '../../utils/httpResponses'
 import { generateRandomValue } from '../../utils/generateRandomValue'
 import supportedSites from '../../mocks/supportedSites.json'
+import mockSettings from '../../mocks/siteSettings.json'
 
 const successResponse = {
   response: {
@@ -48,4 +49,14 @@ export const getSetting = (req: Request, res: Response) => {
 export const logMessage = (req: Request, res: Response) => {
   const { messages } = req.body
   okay(res, successResponse)
+}
+
+export const getSettings = (req: Request, res: Response) => {
+  const { category, id } = req.body
+
+  if (category === 'Site') {
+    return okay(res, mockSettings)
+  }
+
+  okay(res, { settings: {}, response: successResponse })
 }

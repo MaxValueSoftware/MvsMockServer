@@ -1,0 +1,60 @@
+{
+  "response": {
+    "code": 200,
+    "message": "OK"
+  },
+  "hudOptions": {
+    "display": {
+      "muckedCardsOnShowdown": true,
+      "showEquityPercent": false,
+      "seconds": 0,
+      "opacity": 20,
+      "capValues": false,
+      "userTwoDigits": false,
+      "minOpportunities": 0,
+      "lowerOpacity": 20,
+      "tooltipMaxLines": 0,
+      "outlinePlayer": false
+    },
+    "filters": {
+      "minHands": 0,
+      "statsCashStake": true,
+      "statsBetType": false,
+      "retrieveSessionStats": false,
+      "statsFromLastHands": 0,
+      "statsFromLastWeeks": 0,
+      "playerPresets": [
+        {
+          "id": "521dad0f-8979-4ded-917e-49dae778173b",
+          "name": "Default",
+          "ranges": [],
+          "isDefault": true
+        }
+      ],
+      "tournamentStackPresets": [
+        {
+          "id": "521dad0f-8979-4ded-917e-49dae7781731",
+          "name": "Default",
+          "ranges": [],
+          "isDefault": true
+        }
+      ]
+    },
+    "profile": {
+      "profileSelects": [],
+      "limit": "",
+      "game": "",
+      "seats": "",
+      "players": "",
+      "speed": "",
+      "profile": ""
+    },
+    "advanced": {
+      "allowTableSection": true,
+      "scaleHUD": true,
+      "hotkeys": [],
+      "refreshRates": [],
+      "tables": []
+    }
+  }
+}

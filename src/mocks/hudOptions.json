@@ -23,22 +23,10 @@
       "retrieveSessionStats": false,
       "statsFromLastHands": 0,
       "statsFromLastWeeks": 0,
-      "playerPresets": [
-        {
-          "id": "521dad0f-8979-4ded-917e-49dae778173b",
-          "name": "Default",
-          "ranges": [],
-          "isDefault": true
-        }
-      ],
-      "tournamentStackPresets": [
-        {
-          "id": "521dad0f-8979-4ded-917e-49dae7781731",
-          "name": "Default",
-          "ranges": [],
-          "isDefault": true
-        }
-      ]
+      "playerRanges": [],
+      "playerPresets": [],
+      "tournamentStackRanges": [],
+      "tournamentStackPresets": []
     },
     "profile": {
       "profileSelects": [],

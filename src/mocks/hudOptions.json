@@ -21,7 +21,7 @@
       "statsCashStake": true,
       "statsBetType": false,
       "retrieveSessionStats": false,
-      "statsFromLastHands": 0,
+      "statsFromLastHands": 20000,
       "statsFromLastWeeks": 0,
       "playerRanges": [],
       "playerPresets": [],

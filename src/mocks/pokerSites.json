@@ -1,0 +1,28 @@
+{
+  "response": {
+    "code": 200,
+    "message": "OK"
+  },
+  "pokerSites": [
+    {
+      "id": "012345678",
+      "name": "Poker Site 1"
+    },
+    {
+      "id": "112345678",
+      "name": "Poker Site 2"
+    },
+    {
+      "id": "212345678",
+      "name": "Poker Site 3"
+    },
+    {
+      "id": "312345678",
+      "name": "Poker Site 4"
+    },
+    {
+      "id": "412345678",
+      "name": "Poker Site 5"
+    }
+  ]
+}

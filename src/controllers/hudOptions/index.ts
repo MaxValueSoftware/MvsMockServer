@@ -1,6 +1,6 @@
 import express from 'express'
 
-import { getHudOptions } from './hudoptions.controller'
+import { getHudOptions } from './hudOptions.controller'
 
 const router = express.Router()
 

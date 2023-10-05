@@ -60,3 +60,29 @@ export const getSettings = (req: Request, res: Response) => {
 
   okay(res, { settings: {}, response: successResponse })
 }
+
+export const autoDetectHandHistoryDirs = (req: Request, res: Response) => {
+  const { site_id } = req.body
+
+  okay(res, { directories: ['C:\\Users\\User\\Documents\\PokerStars\\HandHistory'] })
+}
+
+export const testEmailConnection = (req: Request, res: Response) => {
+  okay(res, successResponse)
+}
+
+export const showOpenFilePicker = (req: Request, res: Response) => {
+  okay(res, {
+    files: [
+      {
+        path: 'C:\\Users\\Derek\\Documents',
+        filename: 'string',
+        filesize: 0,
+      },
+    ],
+  })
+}
+
+export const showDirectoryPicker = (req: Request, res: Response) => {
+  okay(res, { path: 'C:\\Users\\Derek\\Documents' })
+}

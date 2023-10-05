@@ -5,6 +5,10 @@
   },
   "pokerSites": [
     {
+      "id": "any",
+      "name": "Any"
+    },
+    {
       "id": "012345678",
       "name": "Poker Site 1"
     },

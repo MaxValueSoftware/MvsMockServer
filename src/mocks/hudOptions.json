@@ -29,13 +29,10 @@
       "tournamentStackPresets": []
     },
     "profile": {
-      "profileSelects": [],
-      "limit": "",
-      "game": "",
-      "seats": "",
-      "players": "",
-      "speed": "",
-      "profile": ""
+      "profileSelects": {
+        "cashes": [],
+        "tournaments": []
+      }
     },
     "advanced": {
       "allowTableSection": true,

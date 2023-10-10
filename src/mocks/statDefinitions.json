@@ -1,0 +1,58 @@
+[
+  {
+    "name": "All-In",
+    "title": "All-In",
+    "summary": "All-In",
+    "description": "This is Description",
+    "width": 75,
+    "align": "Left",
+    "definition": "cnt_finish_1",
+    "format": "None",
+    "summaryFormat": "Same as Format",
+    "categories": [],
+    "colors": [
+      {
+        "priority": 0,
+        "expression": "amt_won < 0",
+        "for_hud": true,
+        "for_tracker": true,
+        "color": "#ff0000",
+        "opacity": 1
+      }
+    ],
+    "is_protected": true,
+    "is_essential": true,
+    "display_when_applicable": true,
+    "type": "player",
+    "game": "cash",
+    "source": "built-in"
+  },
+  {
+    "name": "BB Won",
+    "title": "BB Won",
+    "summary": "BB Won",
+    "description": "BB Won Description",
+    "width": 75,
+    "align": "Left",
+    "definition": "cnt_finish_1",
+    "format": "None",
+    "summaryFormat": "Same as Format",
+    "categories": [],
+    "colors": [
+      {
+        "priority": 0,
+        "expression": "amt_won < 0",
+        "for_hud": true,
+        "for_tracker": true,
+        "color": "#ffff00",
+        "opacity": 1
+      }
+    ],
+    "is_protected": true,
+    "is_essential": true,
+    "display_when_applicable": true,
+    "type": "player",
+    "game": "cash",
+    "source": "built-in"
+  }
+]

@@ -13,6 +13,8 @@ import {
   testEmailConnection,
   showOpenFilePicker,
   showDirectoryPicker,
+  getStatDefinitions,
+  validateStat,
 } from './pt5.controller'
 
 const router = express.Router()
@@ -29,5 +31,7 @@ router.route('/autoDetectHandHistoryDirs').post(autoDetectHandHistoryDirs)
 router.route('/testEmailConnection').post(testEmailConnection)
 router.route('/showOpenFilePicker').post(showOpenFilePicker)
 router.route('/showDirectoryPicker').post(showDirectoryPicker)
+router.route('/getStatDefinitions').post(getStatDefinitions)
+router.route('/validateStat').post(validateStat)
 
 export { router }

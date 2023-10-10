@@ -4,6 +4,7 @@ import { badRequest, okay } from '../../utils/httpResponses'
 import { generateRandomValue } from '../../utils/generateRandomValue'
 import supportedSites from '../../mocks/supportedSites.json'
 import mockSettings from '../../mocks/siteSettings.json'
+import statDefinitions from '../../mocks/statDefinitions.json'
 
 const successResponse = {
   response: {
@@ -85,4 +86,21 @@ export const showOpenFilePicker = (req: Request, res: Response) => {
 
 export const showDirectoryPicker = (req: Request, res: Response) => {
   okay(res, { path: 'C:\\Users\\Derek\\Documents' })
+}
+
+export const getStatDefinitions = (req: Request, res: Response) => {
+  const { game, type } = req.body
+
+  okay(res, { response: successResponse, stats: statDefinitions })
+}
+
+export const validateStat = (req: Request, res: Response) => {
+  const { game, type, validate_type, express } = req.body
+
+  okay(res, {
+    userMessage: {
+      message: 'Expression is valid',
+      message_type: 'success',
+    },
+  })
 }

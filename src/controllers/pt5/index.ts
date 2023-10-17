@@ -15,6 +15,10 @@ import {
   showDirectoryPicker,
   getStatDefinitions,
   validateStat,
+  getStatVariables,
+  getStatColumns,
+  getStatFunctions,
+  getStatOperators,
 } from './pt5.controller'
 
 const router = express.Router()
@@ -32,6 +36,10 @@ router.route('/testEmailConnection').post(testEmailConnection)
 router.route('/showOpenFilePicker').post(showOpenFilePicker)
 router.route('/showDirectoryPicker').post(showDirectoryPicker)
 router.route('/getStatDefinitions').post(getStatDefinitions)
+router.route('/getStatVariables').post(getStatVariables)
+router.route('/getStatColumns').post(getStatColumns)
+router.route('/getStatFunctions').get(getStatFunctions)
+router.route('/getStatOperators').get(getStatOperators)
 router.route('/validateStat').post(validateStat)
 
 export { router }

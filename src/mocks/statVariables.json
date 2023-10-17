@@ -1,0 +1,38 @@
+[
+  {
+    "name": "_remote_filters",
+    "description": "Internal use only",
+    "expression": "",
+    "summary": "Count",
+    "type": "player",
+    "game": "cash",
+    "source": "built-in"
+  },
+  {
+    "name": "var_cnt_minutes_real_day",
+    "description": "Determines the number of actual minutes played in a day",
+    "expression": "",
+    "summary": "Count",
+    "type": "player",
+    "game": "cash",
+    "source": "built-in"
+  },
+  {
+    "name": "var_cnt_minutes_real_limit",
+    "description": "Determines the number of actual minutes played in a limit",
+    "expression": "",
+    "summary": "Count",
+    "type": "player",
+    "game": "cash",
+    "source": "built-in"
+  },
+  {
+    "name": "var_cnt_minutes_real_month",
+    "description": "Determines the number of actual minutes played in a month",
+    "expression": "",
+    "summary": "Count",
+    "type": "player",
+    "game": "cash",
+    "source": "built-in"
+  }
+]

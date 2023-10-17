@@ -1,0 +1,38 @@
+[
+  {
+    "name": "amt_bb",
+    "description": "The Amount of the Big Blind for No Limit and Pot Limit",
+    "expression": "",
+    "summary": "Count",
+    "is_grouped_by": true,
+    "is_cached": true,
+    "is_protected": true,
+    "type": "player",
+    "game": "cash",
+    "source": "built-in"
+  },
+  {
+    "name": "amt_bb_won",
+    "description": "Amount won in terms of big blinds",
+    "expression": "",
+    "summary": "Count",
+    "is_grouped_by": true,
+    "is_cached": true,
+    "is_protected": true,
+    "type": "player",
+    "game": "cash",
+    "source": "built-in"
+  },
+  {
+    "name": "amt_bb_won_inc_payout",
+    "description": "Amount won in terms of big blinds. Includes payouts",
+    "expression": "",
+    "summary": "Count",
+    "is_grouped_by": true,
+    "is_cached": true,
+    "is_protected": true,
+    "type": "player",
+    "game": "cash",
+    "source": "built-in"
+  }
+]

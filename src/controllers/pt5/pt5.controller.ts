@@ -5,6 +5,10 @@ import { generateRandomValue } from '../../utils/generateRandomValue'
 import supportedSites from '../../mocks/supportedSites.json'
 import mockSettings from '../../mocks/siteSettings.json'
 import statDefinitions from '../../mocks/statDefinitions.json'
+import statVariables from '../../mocks/statVariables.json'
+import statColumns from '../../mocks/statColumns.json'
+import statFunctions from '../../mocks/statFunctions.json'
+import statOperators from '../../mocks/statOperators.json'
 
 const successResponse = {
   response: {
@@ -92,6 +96,38 @@ export const getStatDefinitions = (req: Request, res: Response) => {
   const { game, type } = req.body
 
   okay(res, { response: successResponse, stats: statDefinitions })
+}
+
+export const getStatVariables = (req: Request, res: Response) => {
+  const { game, type } = req.body
+
+  okay(res, {
+    response: successResponse,
+    variables: statVariables,
+  })
+}
+
+export const getStatColumns = (req: Request, res: Response) => {
+  const { game, type } = req.body
+
+  okay(res, {
+    response: successResponse,
+    columns: statColumns,
+  })
+}
+
+export const getStatFunctions = (req: Request, res: Response) => {
+  okay(res, {
+    response: successResponse,
+    functions: statFunctions,
+  })
+}
+
+export const getStatOperators = (req: Request, res: Response) => {
+  okay(res, {
+    response: successResponse,
+    operators: statOperators,
+  })
 }
 
 export const validateStat = (req: Request, res: Response) => {

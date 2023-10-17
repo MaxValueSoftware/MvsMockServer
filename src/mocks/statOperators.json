@@ -1,0 +1,34 @@
+[
+  {
+    "operator": "!=",
+    "description": "Does Not Equal"
+  },
+  {
+    "operator": "<",
+    "description": "Less Than"
+  },
+  {
+    "operator": "<=",
+    "description": "Less Than or Equal"
+  },
+  {
+    "operator": "=",
+    "description": "Equals"
+  },
+  {
+    "operator": ">",
+    "description": "Greater Than"
+  },
+  {
+    "operator": ">=",
+    "description": "Greater Than or Equal"
+  },
+  {
+    "operator": "AND",
+    "description": "And"
+  },
+  {
+    "operator": "OR",
+    "description": "Or"
+  }
+]

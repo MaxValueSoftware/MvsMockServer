@@ -7,8 +7,44 @@
     "width": 75,
     "align": "Left",
     "definition": "cnt_finish_1",
-    "format": "None",
-    "summaryFormat": "Same as Format",
+    "format": {
+      "type": "None",
+      "options": {
+        "percent": {
+          "decimals": false
+        },
+        "money": {
+          "color": false
+        },
+        "number": {
+          "decimals": false,
+          "commas": false,
+          "color": false
+        },
+        "expression": {
+          "definition": ""
+        }
+      }
+    },
+    "summaryFormat": {
+      "type": "Same as Format",
+      "options": {
+        "percent": {
+          "decimals": false
+        },
+        "money": {
+          "color": false
+        },
+        "number": {
+          "decimals": false,
+          "commas": false,
+          "color": false
+        },
+        "expression": {
+          "definition": ""
+        }
+      }
+    },
     "categories": [],
     "colors": [
       {
@@ -35,8 +71,44 @@
     "width": 75,
     "align": "Left",
     "definition": "cnt_finish_1",
-    "format": "None",
-    "summaryFormat": "Same as Format",
+    "format": {
+      "type": "None",
+      "options": {
+        "percent": {
+          "decimals": false
+        },
+        "money": {
+          "color": false
+        },
+        "number": {
+          "decimals": false,
+          "commas": false,
+          "color": false
+        },
+        "expression": {
+          "definition": "string"
+        }
+      }
+    },
+    "summaryFormat": {
+      "type": "Same as Format",
+      "options": {
+        "percent": {
+          "decimals": false
+        },
+        "money": {
+          "color": false
+        },
+        "number": {
+          "decimals": false,
+          "commas": false,
+          "color": false
+        },
+        "expression": {
+          "definition": "string"
+        }
+      }
+    },
     "categories": [],
     "colors": [
       {

@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Average",
+    "expression": "avg (expr )",
+    "description": "string"
+  },
+  {
+    "name": "Convert From UTC",
+    "expression": "datefix_fromutc (expr )",
+    "description": "string"
+  },
+  {
+    "name": "Count",
+    "expression": "count (expr )",
+    "description": "string"
+  },
+  {
+    "name": "Extract Date",
+    "expression": "dateextract_date (expr )",
+    "description": "string"
+  },
+  {
+    "name": "Extract Day",
+    "expression": "dateextract_day (expr )",
+    "description": "string"
+  }
+]

@@ -1,0 +1,1694 @@
+[
+  {
+    "holecards": "AA",
+    "weight": 0,
+    "top_percentage": 0.5,
+    "is_suited": false,
+    "gap_count": 3,
+    "is_pair": true,
+    "has_ace": true,
+    "are_broadway": true
+  },
+  {
+    "holecards": "AKs",
+    "weight": 5,
+    "top_percentage": 3,
+    "is_suited": true,
+    "gap_count": 0,
+    "is_pair": false,
+    "has_ace": true,
+    "are_broadway": true
+  },
+  {
+    "holecards": "AQs",
+    "weight": 6,
+    "top_percentage": 3.3,
+    "is_suited": true,
+    "gap_count": 1,
+    "is_pair": false,
+    "has_ace": true,
+    "are_broadway": true
+  },
+  {
+    "holecards": "AJs",
+    "weight": 8,
+    "top_percentage": 4.5,
+    "is_suited": true,
+    "gap_count": 2,
+    "is_pair": false,
+    "has_ace": true,
+    "are_broadway": true
+  },
+  {
+    "holecards": "ATs",
+    "weight": 10,
+    "top_percentage": 5.3,
+    "is_suited": true,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": true,
+    "are_broadway": true
+  },
+  {
+    "holecards": "A9s",
+    "weight": 18,
+    "top_percentage": 9.8,
+    "is_suited": true,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": true,
+    "are_broadway": false
+  },
+  {
+    "holecards": "A8s",
+    "weight": 23,
+    "top_percentage": 12.7,
+    "is_suited": true,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": true,
+    "are_broadway": false
+  },
+  {
+    "holecards": "A7s",
+    "weight": 26,
+    "top_percentage": 14.2,
+    "is_suited": true,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": true,
+    "are_broadway": false
+  },
+  {
+    "holecards": "A6s",
+    "weight": 31,
+    "top_percentage": 16.4,
+    "is_suited": true,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": true,
+    "are_broadway": false
+  },
+  {
+    "holecards": "A5s",
+    "weight": 29,
+    "top_percentage": 15.7,
+    "is_suited": true,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": true,
+    "are_broadway": false
+  },
+  {
+    "holecards": "A4s",
+    "weight": 36,
+    "top_percentage": 19.5,
+    "is_suited": true,
+    "gap_count": 2,
+    "is_pair": false,
+    "has_ace": true,
+    "are_broadway": false
+  },
+  {
+    "holecards": "A3s",
+    "weight": 40,
+    "top_percentage": 21.9,
+    "is_suited": true,
+    "gap_count": 1,
+    "is_pair": false,
+    "has_ace": true,
+    "are_broadway": false
+  },
+  {
+    "holecards": "A2s",
+    "weight": 43,
+    "top_percentage": 23.7,
+    "is_suited": true,
+    "gap_count": 0,
+    "is_pair": false,
+    "has_ace": true,
+    "are_broadway": false
+  },
+  {
+    "holecards": "AKo",
+    "weight": 7,
+    "top_percentage": 4.2,
+    "is_suited": false,
+    "gap_count": 0,
+    "is_pair": false,
+    "has_ace": true,
+    "are_broadway": true
+  },
+  {
+    "holecards": "KK",
+    "weight": 1,
+    "top_percentage": 0.9,
+    "is_suited": false,
+    "gap_count": 3,
+    "is_pair": true,
+    "has_ace": true,
+    "are_broadway": true
+  },
+  {
+    "holecards": "KQs",
+    "weight": 11,
+    "top_percentage": 6.5,
+    "is_suited": true,
+    "gap_count": 0,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": true
+  },
+  {
+    "holecards": "KJs",
+    "weight": 12,
+    "top_percentage": 6.8,
+    "is_suited": true,
+    "gap_count": 1,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": true
+  },
+  {
+    "holecards": "KTs",
+    "weight": 13,
+    "top_percentage": 7.1,
+    "is_suited": true,
+    "gap_count": 2,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": true
+  },
+  {
+    "holecards": "K9s",
+    "weight": 24,
+    "top_percentage": 13,
+    "is_suited": true,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "K8s",
+    "weight": 36,
+    "top_percentage": 19.5,
+    "is_suited": true,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "K7s",
+    "weight": 38,
+    "top_percentage": 20.7,
+    "is_suited": true,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "K6s",
+    "weight": 43,
+    "top_percentage": 23.7,
+    "is_suited": true,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "K5s",
+    "weight": 48,
+    "top_percentage": 27.1,
+    "is_suited": true,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "K4s",
+    "weight": 54,
+    "top_percentage": 31.4,
+    "is_suited": true,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "K3s",
+    "weight": 59,
+    "top_percentage": 34.7,
+    "is_suited": true,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "K2s",
+    "weight": 65,
+    "top_percentage": 38.8,
+    "is_suited": true,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "AQo",
+    "weight": 11,
+    "top_percentage": 6.5,
+    "is_suited": false,
+    "gap_count": 1,
+    "is_pair": false,
+    "has_ace": true,
+    "are_broadway": true
+  },
+  {
+    "holecards": "KQo",
+    "weight": 16,
+    "top_percentage": 9.2,
+    "is_suited": false,
+    "gap_count": 0,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": true
+  },
+  {
+    "holecards": "QQ",
+    "weight": 2,
+    "top_percentage": 1.4,
+    "is_suited": false,
+    "gap_count": 3,
+    "is_pair": true,
+    "has_ace": true,
+    "are_broadway": true
+  },
+  {
+    "holecards": "QJs",
+    "weight": 14,
+    "top_percentage": 7.4,
+    "is_suited": true,
+    "gap_count": 0,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": true
+  },
+  {
+    "holecards": "QTs",
+    "weight": 17,
+    "top_percentage": 9.5,
+    "is_suited": true,
+    "gap_count": 1,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": true
+  },
+  {
+    "holecards": "Q9s",
+    "weight": 28,
+    "top_percentage": 15.4,
+    "is_suited": true,
+    "gap_count": 2,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "Q8s",
+    "weight": 41,
+    "top_percentage": 22.2,
+    "is_suited": true,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "Q7s",
+    "weight": 49,
+    "top_percentage": 27.5,
+    "is_suited": true,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "Q6s",
+    "weight": 56,
+    "top_percentage": 32.6,
+    "is_suited": true,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "Q5s",
+    "weight": 60,
+    "top_percentage": 35.3,
+    "is_suited": true,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "Q4s",
+    "weight": 67,
+    "top_percentage": 40,
+    "is_suited": true,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "Q3s",
+    "weight": 76,
+    "top_percentage": 45.4,
+    "is_suited": true,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "Q2s",
+    "weight": 80,
+    "top_percentage": 47.8,
+    "is_suited": true,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+
+  {
+    "holecards": "AJo",
+    "weight": 15,
+    "top_percentage": 8.3,
+    "is_suited": false,
+    "gap_count": 2,
+    "is_pair": false,
+    "has_ace": true,
+    "are_broadway": true
+  },
+  {
+    "holecards": "KJo",
+    "weight": 22,
+    "top_percentage": 12.4,
+    "is_suited": false,
+    "gap_count": 1,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": true
+  },
+  {
+    "holecards": "QJo",
+    "weight": 25,
+    "top_percentage": 13.9,
+    "is_suited": false,
+    "gap_count": 0,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": true
+  },
+  {
+    "holecards": "JJ",
+    "weight": 3,
+    "top_percentage": 1.8,
+    "is_suited": false,
+    "gap_count": 3,
+    "is_pair": true,
+    "has_ace": true,
+    "are_broadway": true
+  },
+  {
+    "holecards": "JTs",
+    "weight": 21,
+    "top_percentage": 11.5,
+    "is_suited": true,
+    "gap_count": 0,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": true
+  },
+  {
+    "holecards": "J9s",
+    "weight": 33,
+    "top_percentage": 17.6,
+    "is_suited": true,
+    "gap_count": 1,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "J8s",
+    "weight": 44,
+    "top_percentage": 24.3,
+    "is_suited": true,
+    "gap_count": 2,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "J7s",
+    "weight": 57,
+    "top_percentage": 33.2,
+    "is_suited": true,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "J6s",
+    "weight": 69,
+    "top_percentage": 41.2,
+    "is_suited": true,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "J5s",
+    "weight": 77,
+    "top_percentage": 45.7,
+    "is_suited": true,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "J4s",
+    "weight": 81,
+    "top_percentage": 48.6,
+    "is_suited": true,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "J3s",
+    "weight": 88,
+    "top_percentage": 53.4,
+    "is_suited": true,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "J2s",
+    "weight": 95,
+    "top_percentage": 57.6,
+    "is_suited": true,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+
+  {
+    "holecards": "ATo",
+    "weight": 15,
+    "top_percentage": 11.2,
+    "is_suited": false,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": true,
+    "are_broadway": true
+  },
+  {
+    "holecards": "KTo",
+    "weight": 27,
+    "top_percentage": 15.1,
+    "is_suited": false,
+    "gap_count": 2,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": true
+  },
+  {
+    "holecards": "QTo",
+    "weight": 32,
+    "top_percentage": 17.3,
+    "is_suited": false,
+    "gap_count": 1,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": true
+  },
+  {
+    "holecards": "JTo",
+    "weight": 37,
+    "top_percentage": 20.4,
+    "is_suited": false,
+    "gap_count": 0,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": true
+  },
+  {
+    "holecards": "TT",
+    "weight": 4,
+    "top_percentage": 2.3,
+    "is_suited": false,
+    "gap_count": 3,
+    "is_pair": true,
+    "has_ace": true,
+    "are_broadway": true
+  },
+  {
+    "holecards": "T9s",
+    "weight": 35,
+    "top_percentage": 18.9,
+    "is_suited": true,
+    "gap_count": 0,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "T8s",
+    "weight": 44,
+    "top_percentage": 24.3,
+    "is_suited": true,
+    "gap_count": 1,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "T7s",
+    "weight": 57,
+    "top_percentage": 33.2,
+    "is_suited": true,
+    "gap_count": 2,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "T6s",
+    "weight": 72,
+    "top_percentage": 43.3,
+    "is_suited": true,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "T5s",
+    "weight": 86,
+    "top_percentage": 52.2,
+    "is_suited": true,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "T4s",
+    "weight": 93,
+    "top_percentage": 56.1,
+    "is_suited": true,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "T3s",
+    "weight": 98,
+    "top_percentage": 59.6,
+    "is_suited": true,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "T2s",
+    "weight": 102,
+    "top_percentage": 62,
+    "is_suited": true,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "A9o",
+    "weight": 34,
+    "top_percentage": 18.6,
+    "is_suited": false,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": true,
+    "are_broadway": false
+  },
+  {
+    "holecards": "K9o",
+    "weight": 42,
+    "top_percentage": 23.1,
+    "is_suited": false,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "Q9o",
+    "weight": 47,
+    "top_percentage": 26.5,
+    "is_suited": false,
+    "gap_count": 2,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "J9o",
+    "weight": 50,
+    "top_percentage": 28.4,
+    "is_suited": false,
+    "gap_count": 1,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "T9o",
+    "weight": 52,
+    "top_percentage": 30.2,
+    "is_suited": false,
+    "gap_count": 0,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "99",
+    "weight": 5,
+    "top_percentage": 3,
+    "is_suited": false,
+    "gap_count": 3,
+    "is_pair": true,
+    "has_ace": true,
+    "are_broadway": false
+  },
+  {
+    "holecards": "98s",
+    "weight": 48,
+    "top_percentage": 27.1,
+    "is_suited": true,
+    "gap_count": 0,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "97s",
+    "weight": 59,
+    "top_percentage": 34.7,
+    "is_suited": true,
+    "gap_count": 1,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "96s",
+    "weight": 75,
+    "top_percentage": 45.1,
+    "is_suited": true,
+    "gap_count": 2,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "95s",
+    "weight": 89,
+    "top_percentage": 53.7,
+    "is_suited": true,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "94s",
+    "weight": 106,
+    "top_percentage": 64.4,
+    "is_suited": true,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "93s",
+    "weight": 110,
+    "top_percentage": 67.7,
+    "is_suited": true,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "92s",
+    "weight": 114,
+    "top_percentage": 70.4,
+    "is_suited": true,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "A8o",
+    "weight": 39,
+    "top_percentage": 21.6,
+    "is_suited": false,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": true,
+    "are_broadway": false
+  },
+  {
+    "holecards": "K8o",
+    "weight": 55,
+    "top_percentage": 32.3,
+    "is_suited": false,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "Q8o",
+    "weight": 63,
+    "top_percentage": 37.6,
+    "is_suited": false,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "J8o",
+    "weight": 66,
+    "top_percentage": 39.7,
+    "is_suited": false,
+    "gap_count": 2,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "T8o",
+    "weight": 68,
+    "top_percentage": 40.9,
+    "is_suited": false,
+    "gap_count": 1,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "98o",
+    "weight": 73,
+    "top_percentage": 44.2,
+    "is_suited": false,
+    "gap_count": 0,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "88",
+    "weight": 9,
+    "top_percentage": 5,
+    "is_suited": false,
+    "gap_count": 3,
+    "is_pair": true,
+    "has_ace": true,
+    "are_broadway": false
+  },
+  {
+    "holecards": "87s",
+    "weight": 60,
+    "top_percentage": 35.3,
+    "is_suited": true,
+    "gap_count": 0,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "86s",
+    "weight": 74,
+    "top_percentage": 44.8,
+    "is_suited": true,
+    "gap_count": 1,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "85s",
+    "weight": 91,
+    "top_percentage": 54.9,
+    "is_suited": true,
+    "gap_count": 2,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "84s",
+    "weight": 105,
+    "top_percentage": 64.1,
+    "is_suited": true,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "83s",
+    "weight": 119,
+    "top_percentage": 73.8,
+    "is_suited": true,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "82s",
+    "weight": 123,
+    "top_percentage": 76.2,
+    "is_suited": true,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "A7o",
+    "weight": 45,
+    "top_percentage": 25.2,
+    "is_suited": false,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": true,
+    "are_broadway": false
+  },
+  {
+    "holecards": "K7o",
+    "weight": 61,
+    "top_percentage": 36.2,
+    "is_suited": false,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "Q7o",
+    "weight": 79,
+    "top_percentage": 47.5,
+    "is_suited": false,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "J7o",
+    "weight": 83,
+    "top_percentage": 49.8,
+    "is_suited": false,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "T7o",
+    "weight": 84,
+    "top_percentage": 50.7,
+    "is_suited": false,
+    "gap_count": 2,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "97o",
+    "weight": 92,
+    "top_percentage": 55.8,
+    "is_suited": false,
+    "gap_count": 1,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "87o",
+    "weight": 90,
+    "top_percentage": 54.6,
+    "is_suited": false,
+    "gap_count": 0,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "77",
+    "weight": 19,
+    "top_percentage": 10.3,
+    "is_suited": false,
+    "gap_count": 3,
+    "is_pair": true,
+    "has_ace": true,
+    "are_broadway": false
+  },
+  {
+    "holecards": "76s",
+    "weight": 74,
+    "top_percentage": 44.8,
+    "is_suited": true,
+    "gap_count": 0,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "75s",
+    "weight": 86,
+    "top_percentage": 52.2,
+    "is_suited": true,
+    "gap_count": 1,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "74s",
+    "weight": 100,
+    "top_percentage": 60.8,
+    "is_suited": true,
+    "gap_count": 2,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "73s",
+    "weight": 115,
+    "top_percentage": 70.7,
+    "is_suited": true,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "72s",
+    "weight": 132,
+    "top_percentage": 82.5,
+    "is_suited": true,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "A6o",
+    "weight": 53,
+    "top_percentage": 31.1,
+    "is_suited": false,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": true,
+    "are_broadway": false
+  },
+  {
+    "holecards": "K6o",
+    "weight": 70,
+    "top_percentage": 42.1,
+    "is_suited": false,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "Q6o",
+    "weight": 87,
+    "top_percentage": 53.1,
+    "is_suited": false,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "J6o",
+    "weight": 104,
+    "top_percentage": 63.8,
+    "is_suited": false,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "T6o",
+    "weight": 108,
+    "top_percentage": 66.2,
+    "is_suited": false,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "96o",
+    "weight": 109,
+    "top_percentage": 67.4,
+    "is_suited": false,
+    "gap_count": 2,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "86o",
+    "weight": 107,
+    "top_percentage": 65.3,
+    "is_suited": false,
+    "gap_count": 1,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "76o",
+    "weight": 101,
+    "top_percentage": 61.7,
+    "is_suited": false,
+    "gap_count": 0,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "66",
+    "weight": 30,
+    "top_percentage": 16.1,
+    "is_suited": false,
+    "gap_count": 3,
+    "is_pair": true,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "65s",
+    "weight": 82,
+    "top_percentage": 48.9,
+    "is_suited": true,
+    "gap_count": 0,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "64s",
+    "weight": 97,
+    "top_percentage": 58.8,
+    "is_suited": true,
+    "gap_count": 1,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "63s",
+    "weight": 113,
+    "top_percentage": 69.8,
+    "is_suited": true,
+    "gap_count": 2,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "62s",
+    "weight": 127,
+    "top_percentage": 79.2,
+    "is_suited": true,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "A5o",
+    "weight": 51,
+    "top_percentage": 29.3,
+    "is_suited": false,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": true,
+    "are_broadway": false
+  },
+  {
+    "holecards": "K5o",
+    "weight": 78,
+    "top_percentage": 46.6,
+    "is_suited": false,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "Q5o",
+    "weight": 96,
+    "top_percentage": 58.5,
+    "is_suited": false,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "J5o",
+    "weight": 112,
+    "top_percentage": 69.5,
+    "is_suited": false,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "T5o",
+    "weight": 124,
+    "top_percentage": 77.1,
+    "is_suited": false,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "95o",
+    "weight": 125,
+    "top_percentage": 78,
+    "is_suited": false,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "85o",
+    "weight": 122,
+    "top_percentage": 75.9,
+    "is_suited": false,
+    "gap_count": 2,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "75o",
+    "weight": 120,
+    "top_percentage": 74.7,
+    "is_suited": false,
+    "gap_count": 1,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "65o",
+    "weight": 116,
+    "top_percentage": 71.6,
+    "is_suited": false,
+    "gap_count": 0,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "55",
+    "weight": 46,
+    "top_percentage": 25.6,
+    "is_suited": false,
+    "gap_count": 3,
+    "is_pair": true,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "54s",
+    "weight": 95,
+    "top_percentage": 57.6,
+    "is_suited": true,
+    "gap_count": 0,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "53s",
+    "weight": 109,
+    "top_percentage": 67.4,
+    "is_suited": true,
+    "gap_count": 1,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "52s",
+    "weight": 121,
+    "top_percentage": 75,
+    "is_suited": true,
+    "gap_count": 2,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "A4o",
+    "weight": 58,
+    "top_percentage": 34.1,
+    "is_suited": false,
+    "gap_count": 2,
+    "is_pair": false,
+    "has_ace": true,
+    "are_broadway": false
+  },
+  {
+    "holecards": "K4o",
+    "weight": 85,
+    "top_percentage": 51.6,
+    "is_suited": false,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "Q4o",
+    "weight": 103,
+    "top_percentage": 62.9,
+    "is_suited": false,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "J4o",
+    "weight": 118,
+    "top_percentage": 73.5,
+    "is_suited": false,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "T4o",
+    "weight": 130,
+    "top_percentage": 81.3,
+    "is_suited": false,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "94o",
+    "weight": 139,
+    "top_percentage": 88.2,
+    "is_suited": false,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "84o",
+    "weight": 137,
+    "top_percentage": 86.4,
+    "is_suited": false,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "74o",
+    "weight": 136,
+    "top_percentage": 85.5,
+    "is_suited": false,
+    "gap_count": 2,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "64o",
+    "weight": 133,
+    "top_percentage": 83.4,
+    "is_suited": false,
+    "gap_count": 1,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "54o",
+    "weight": 128,
+    "top_percentage": 80.1,
+    "is_suited": false,
+    "gap_count": 0,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "44",
+    "weight": 62,
+    "top_percentage": 36.7,
+    "is_suited": false,
+    "gap_count": 3,
+    "is_pair": true,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "43s",
+    "weight": 114,
+    "top_percentage": 70.4,
+    "is_suited": true,
+    "gap_count": 0,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "42s",
+    "weight": 129,
+    "top_percentage": 80.4,
+    "is_suited": true,
+    "gap_count": 1,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "A3o",
+    "weight": 64,
+    "top_percentage": 38.5,
+    "is_suited": false,
+    "gap_count": 1,
+    "is_pair": false,
+    "has_ace": true,
+    "are_broadway": false
+  },
+  {
+    "holecards": "K3o",
+    "weight": 94,
+    "top_percentage": 57,
+    "is_suited": false,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "Q3o",
+    "weight": 111,
+    "top_percentage": 68.6,
+    "is_suited": false,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "J3o",
+    "weight": 126,
+    "top_percentage": 78.9,
+    "is_suited": false,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "T3o",
+    "weight": 134,
+    "top_percentage": 84.3,
+    "is_suited": false,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "93o",
+    "weight": 141,
+    "top_percentage": 90,
+    "is_suited": false,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "83o",
+    "weight": 146,
+    "top_percentage": 94.6,
+    "is_suited": false,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "73o",
+    "weight": 145,
+    "top_percentage": 93.7,
+    "is_suited": false,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "63o",
+    "weight": 142,
+    "top_percentage": 91,
+    "is_suited": false,
+    "gap_count": 2,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "53o",
+    "weight": 140,
+    "top_percentage": 89.1,
+    "is_suited": false,
+    "gap_count": 1,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "43o",
+    "weight": 143,
+    "top_percentage": 91.9,
+    "is_suited": false,
+    "gap_count": 0,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "33",
+    "weight": 81,
+    "top_percentage": 48.6,
+    "is_suited": false,
+    "gap_count": 3,
+    "is_pair": true,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "32s",
+    "weight": 135,
+    "top_percentage": 84.6,
+    "is_suited": true,
+    "gap_count": 0,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "A2o",
+    "weight": 71,
+    "top_percentage": 43,
+    "is_suited": false,
+    "gap_count": 0,
+    "is_pair": false,
+    "has_ace": true,
+    "are_broadway": false
+  },
+  {
+    "holecards": "K2o",
+    "weight": 99,
+    "top_percentage": 60.5,
+    "is_suited": false,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "Q2o",
+    "weight": 117,
+    "top_percentage": 72.5,
+    "is_suited": false,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "J2o",
+    "weight": 131,
+    "top_percentage": 82.2,
+    "is_suited": false,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "T2o",
+    "weight": 138,
+    "top_percentage": 87.3,
+    "is_suited": false,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "92o",
+    "weight": 144,
+    "top_percentage": 92.8,
+    "is_suited": false,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "82o",
+    "weight": 148,
+    "top_percentage": 96.4,
+    "is_suited": false,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "72o",
+    "weight": 151,
+    "top_percentage": 99.1,
+    "is_suited": false,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "62o",
+    "weight": 150,
+    "top_percentage": 98.2,
+    "is_suited": false,
+    "gap_count": 3,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "52o",
+    "weight": 147,
+    "top_percentage": 95.5,
+    "is_suited": false,
+    "gap_count": 2,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "42o",
+    "weight": 149,
+    "top_percentage": 97.3,
+    "is_suited": false,
+    "gap_count": 1,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "32o",
+    "weight": 152,
+    "top_percentage": 100,
+    "is_suited": false,
+    "gap_count": 0,
+    "is_pair": false,
+    "has_ace": false,
+    "are_broadway": false
+  },
+  {
+    "holecards": "22",
+    "weight": 98,
+    "top_percentage": 59.6,
+    "is_suited": false,
+    "gap_count": 3,
+    "is_pair": true,
+    "has_ace": false,
+    "are_broadway": false
+  }
+]

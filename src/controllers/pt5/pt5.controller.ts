@@ -9,6 +9,7 @@ import statVariables from '../../mocks/statVariables.json'
 import statColumns from '../../mocks/statColumns.json'
 import statFunctions from '../../mocks/statFunctions.json'
 import statOperators from '../../mocks/statOperators.json'
+import holecards from '../../mocks/holecards.json'
 
 const successResponse = {
   response: {
@@ -138,5 +139,32 @@ export const validateStat = (req: Request, res: Response) => {
       message: 'Expression is valid',
       message_type: 'success',
     },
+  })
+}
+
+export const getHandRangeModels = (req: Request, res: Response) => {
+  const { game } = req.body
+
+  okay(res, {
+    response: successResponse,
+    models: [
+      {
+        name: 'Sklansky-Karlson',
+        color: '#ff0000',
+        game,
+        is_protected: true,
+        holecards,
+      },
+    ],
+  })
+}
+
+export const getHandRangeTextFromCards = (req: Request, res: Response) => {
+  const { game, cards } = req.body
+
+  okay(res, {
+    response: successResponse,
+    hand_range_text: cards.join(','),
+    hands_included_percent: cards.length === 0 ? 0 : Math.round(Math.random() * 10000) / 100,
   })
 }

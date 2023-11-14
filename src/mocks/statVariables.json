@@ -6,7 +6,8 @@
     "summary": "Count",
     "type": "player",
     "game": "cash",
-    "source": "built-in"
+    "source": "built-in",
+    "is_protected": true
   },
   {
     "name": "var_cnt_minutes_real_day",
@@ -15,7 +16,8 @@
     "summary": "Count",
     "type": "player",
     "game": "cash",
-    "source": "built-in"
+    "source": "built-in",
+    "is_protected": true
   },
   {
     "name": "var_cnt_minutes_real_limit",
@@ -24,7 +26,8 @@
     "summary": "Count",
     "type": "player",
     "game": "cash",
-    "source": "built-in"
+    "source": "built-in",
+    "is_protected": false
   },
   {
     "name": "var_cnt_minutes_real_month",
@@ -33,6 +36,7 @@
     "summary": "Count",
     "type": "player",
     "game": "cash",
-    "source": "built-in"
+    "source": "built-in",
+    "is_protected": false
   }
 ]

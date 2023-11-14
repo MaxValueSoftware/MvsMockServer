@@ -19,6 +19,8 @@ import {
   getStatColumns,
   getStatFunctions,
   getStatOperators,
+  getHandRangeModels,
+  getHandRangeTextFromCards,
 } from './pt5.controller'
 
 const router = express.Router()
@@ -41,5 +43,7 @@ router.route('/getStatColumns').post(getStatColumns)
 router.route('/getStatFunctions').get(getStatFunctions)
 router.route('/getStatOperators').get(getStatOperators)
 router.route('/validateStat').post(validateStat)
+router.route('/getHandRangeModels').post(getHandRangeModels)
+router.route('/getHandRangeTextFromCards').post(getHandRangeTextFromCards)
 
 export { router }

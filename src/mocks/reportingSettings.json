@@ -1,0 +1,16 @@
+{
+  "response": {
+    "code": 200,
+    "message": "OK"
+  },
+  "settings": {
+    "myDayStartsAt": 0,
+    "noOpportunityStat": "-",
+    "noOpportunityColor": "#CBCBCB",
+    "positive": "#009900",
+    "positiveRow": "#E2F1E2",
+    "negative": "#BB1800",
+    "negativeRow": "#F3E2E2",
+    "highlightRow": "#E7F5FD"
+  }
+}

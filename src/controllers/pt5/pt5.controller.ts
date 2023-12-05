@@ -4,12 +4,16 @@ import { badRequest, okay } from '../../utils/httpResponses'
 import { generateRandomValue } from '../../utils/generateRandomValue'
 import supportedSites from '../../mocks/supportedSites.json'
 import mockSettings from '../../mocks/siteSettings.json'
+import reportingSettings from '../../mocks/reportingSettings.json'
 import statDefinitions from '../../mocks/statDefinitions.json'
 import statVariables from '../../mocks/statVariables.json'
 import statColumns from '../../mocks/statColumns.json'
 import statFunctions from '../../mocks/statFunctions.json'
 import statOperators from '../../mocks/statOperators.json'
 import holecards from '../../mocks/holecards.json'
+import tags from '../../mocks/tags.json'
+import players from '../../mocks/players.json'
+import searchPlayers from '../../mocks/searchPlayers.json'
 
 const successResponse = {
   response: {
@@ -62,6 +66,10 @@ export const getSettings = (req: Request, res: Response) => {
 
   if (category === 'Site') {
     return okay(res, mockSettings)
+  }
+
+  if (category === 'Reporting') {
+    return okay(res, reportingSettings)
   }
 
   okay(res, { settings: {}, response: successResponse })
@@ -167,4 +175,58 @@ export const getHandRangeTextFromCards = (req: Request, res: Response) => {
     hand_range_text: cards.join(','),
     hands_included_percent: cards.length === 0 ? 0 : Math.round(Math.random() * 10000) / 100,
   })
+}
+
+export const saveHandRangeModel = (req: Request, res: Response) => {
+  const { name, game, cards } = req.body
+
+  okay(res, { response: successResponse })
+}
+
+export const deleteHandRangeModel = (req: Request, res: Response) => {
+  const { name } = req.body
+
+  okay(res, { response: successResponse })
+}
+
+export const importHandRangeModel = (req: Request, res: Response) => {
+  okay(res, { response: successResponse })
+}
+
+export const exportHandRangeModel = (req: Request, res: Response) => {
+  okay(res, { response: successResponse })
+}
+
+export const getTags = (req: Request, res: Response) => {
+  okay(res, tags)
+}
+
+export const saveTag = (req: Request, res: Response) => {
+  okay(res, { response: successResponse })
+}
+
+export const deleteTag = (req: Request, res: Response) => {
+  okay(res, { response: successResponse })
+}
+
+export const getPlayerList = (req: Request, res: Response) => {
+  const { fetch_active, fetch_recent } = req.body
+
+  okay(res, players)
+}
+
+export const searchPlayerList = (req: Request, res: Response) => {
+  const { search, limit } = req.body
+
+  const players = searchPlayers.players.filter((player) =>
+    player.name.toLowerCase().includes(search.toLowerCase()),
+  )
+
+  okay(res, { ...searchPlayers, players })
+}
+
+export const setActivePlayer = (req: Request, res: Response) => {
+  const { player_id } = req.body
+
+  okay(res, { response: successResponse })
 }

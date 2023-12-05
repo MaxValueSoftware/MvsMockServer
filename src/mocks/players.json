@@ -1,0 +1,55 @@
+{
+  "response": {
+    "code": 200,
+    "message": "string"
+  },
+  "players": {
+    "active": {
+      "id": 0,
+      "name": "Brandon",
+      "site_icon": {
+        "id": 0,
+        "path": "https://cdn-icons-png.flaticon.com/512/3362/3362036.png",
+        "title": "brandon"
+      }
+    },
+    "recent": [
+      {
+        "id": 0,
+        "name": "Brandon",
+        "site_icon": {
+          "id": 0,
+          "path": "https://cdn-icons-png.flaticon.com/512/3362/3362036.png",
+          "title": "brandon"
+        }
+      },
+      {
+        "id": 1,
+        "name": "Derek",
+        "site_icon": {
+          "id": 1,
+          "path": "https://cdn-icons-png.flaticon.com/512/10702/10702454.png",
+          "title": "derek"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Tony",
+        "site_icon": {
+          "id": 2,
+          "path": "https://cdn-icons-png.flaticon.com/512/7642/7642660.png",
+          "title": "tony"
+        }
+      },
+      {
+        "id": 3,
+        "name": "Josh",
+        "site_icon": {
+          "id": 3,
+          "path": "https://cdn-icons-png.flaticon.com/512/11511/11511483.png",
+          "title": "brandon"
+        }
+      }
+    ]
+  }
+}

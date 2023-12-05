@@ -1,0 +1,40 @@
+{
+  "response": {
+    "code": 200,
+    "message": "string"
+  },
+  "tags": [
+    {
+      "id": 0,
+      "name": "Neutral",
+      "icon_id": 0
+    },
+    {
+      "id": 1,
+      "name": "Happy",
+      "icon_id": 1
+    },
+    {
+      "id": 2,
+      "name": "Very Happy",
+      "icon_id": 2
+    }
+  ],
+  "icons": [
+    {
+      "id": 0,
+      "path": "https://cdn-icons-png.flaticon.com/512/3362/3362036.png",
+      "title": "Neutral"
+    },
+    {
+      "id": 1,
+      "path": "https://cdn-icons-png.flaticon.com/512/10702/10702454.png",
+      "title": "Happy"
+    },
+    {
+      "id": 2,
+      "path": "https://cdn-icons-png.flaticon.com/512/7642/7642660.png",
+      "title": "Very Happy"
+    }
+  ]
+}

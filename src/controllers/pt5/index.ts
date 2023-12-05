@@ -21,6 +21,16 @@ import {
   getStatOperators,
   getHandRangeModels,
   getHandRangeTextFromCards,
+  saveHandRangeModel,
+  deleteHandRangeModel,
+  importHandRangeModel,
+  exportHandRangeModel,
+  getTags,
+  saveTag,
+  deleteTag,
+  getPlayerList,
+  searchPlayerList,
+  setActivePlayer,
 } from './pt5.controller'
 
 const router = express.Router()
@@ -45,5 +55,15 @@ router.route('/getStatOperators').get(getStatOperators)
 router.route('/validateStat').post(validateStat)
 router.route('/getHandRangeModels').post(getHandRangeModels)
 router.route('/getHandRangeTextFromCards').post(getHandRangeTextFromCards)
+router.route('/saveHandRangeModel').post(saveHandRangeModel)
+router.route('/deleteHandRangeModel').post(deleteHandRangeModel)
+router.route('/importHandRangeModel').post(importHandRangeModel)
+router.route('/exportHandRangeModel').post(exportHandRangeModel)
+router.route('/getTags').get(getTags)
+router.route('/saveTag').put(saveTag)
+router.route('/deleteTag').delete(deleteTag)
+router.route('/getPlayerList').post(getPlayerList)
+router.route('/searchPlayerList').post(searchPlayerList)
+router.route('/setActivePlayer').put(setActivePlayer)
 
 export { router }

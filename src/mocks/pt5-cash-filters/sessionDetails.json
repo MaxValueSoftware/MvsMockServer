@@ -1,0 +1,38 @@
+{
+  "response": {
+    "code": 200,
+    "message": "OK"
+  },
+  "sessionDetails": {
+    "amountWonLostForTableSession": {
+      "isEnabled": false,
+      "values": {
+        "bbBetween": {
+          "selected": false,
+          "value": [-1000, 1000]
+        },
+        "myCurrencyBetween": {
+          "selected": false,
+          "value": [-1000, 1000]
+        },
+        "gameCurrencyBetween": {
+          "selected": false,
+          "value": [-1000, 1000]
+        }
+      }
+    },
+    "tableSessionDuration": {
+      "isEnabled": false,
+      "values": {
+        "hoursBetween": {
+          "selected": false,
+          "value": [0, 1.5]
+        },
+        "handsBetween": {
+          "selected": false,
+          "value": [0, 1500]
+        }
+      }
+    }
+  }
+}

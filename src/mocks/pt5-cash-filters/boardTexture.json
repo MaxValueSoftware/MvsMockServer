@@ -1,0 +1,110 @@
+{
+  "response": {
+    "code": 200,
+    "message": "OK"
+  },
+  "boadTexture": {
+    "boardCards": {
+      "flop": {
+        "broadwayCards": {
+          "isEnabled": false,
+          "value": "One or more"
+        },
+        "middleCards": {
+          "isEnabled": false,
+          "value": "One or more"
+        },
+        "wheelCards": {
+          "isEnabled": false,
+          "value": "One or more"
+        },
+        "flopContainsAtLeastOne": {
+          "isEnabled": false,
+          "values": []
+        }
+      },
+      "turn": {
+        "turnIsAnOvercard": false,
+        "turnIs": {
+          "isEnabled": false,
+          "values": []
+        }
+      },
+      "river": {
+        "riverIsAnOvercard": false,
+        "riverIs": {
+          "isEnabled": false,
+          "values": []
+        }
+      }
+    },
+    "boardPairing": {
+      "flop": {
+        "boardPairedAnyStreet": false,
+        "pairOnFlop": {
+          "isEnabled": false,
+          "values": [{ "order": 0, "title": "Any Pair" }]
+        }
+      },
+      "turn": {
+        "boardPairedAnyStreet": false,
+        "turnPairedTheBoard": false,
+        "pairOnTurn": {
+          "isEnabled": false,
+          "values": [{ "order": 0, "title": "Any Pair" }]
+        }
+      },
+      "river": {
+        "boardPairedAnyStreet": false,
+        "riverPairsTheBoardWith": {
+          "isEnabled": false,
+          "value": "Any Street"
+        },
+        "pairOnRiver": {
+          "isEnabled": false,
+          "values": [{ "order": 0, "title": "Any Rivered Pair" }]
+        }
+      }
+    },
+    "boardSuits": {
+      "flop": {
+        "suitsOnFlop": {
+          "isEnabled": false,
+          "values": [{ "order": 0, "title": "Any Suits" }]
+        }
+      },
+      "turn": {
+        "suitsOnTurn": {
+          "isEnabled": false,
+          "values": [{ "order": 0, "title": "Any Suits" }]
+        }
+      },
+      "river": {
+        "suitsOnRiver": {
+          "isEnabled": false,
+          "values": [{ "order": 0, "title": "Any Suits" }]
+        }
+      }
+    },
+    "boardConnectedness": {
+      "flop": {
+        "connectednessOnFlop": {
+          "isEnabled": false,
+          "values": [{ "order": 0, "title": "Any Connectedness (Straight Draw is Possible)" }]
+        }
+      },
+      "turn": {
+        "connectednessOnTurn": {
+          "isEnabled": false,
+          "values": [{ "order": 0, "title": "Any Connectedness (Straight Draw is Possible)" }]
+        }
+      },
+      "river": {
+        "connectednessOnRiver": {
+          "isEnabled": false,
+          "values": [{ "order": 0, "title": "Any Connectedness" }]
+        }
+      }
+    }
+  }
+}

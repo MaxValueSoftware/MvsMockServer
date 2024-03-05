@@ -1,0 +1,569 @@
+{
+  "response": {
+    "code": 200,
+    "message": "OK"
+  },
+  "handDetails": {
+    "maximumPreflopRaiseThatOccured": {
+      "isEnabled": false,
+      "values": []
+    },
+    "preflotLimpingThatOccured": {
+      "isEnabled": false,
+      "values": {
+        "Between": {
+          "selected": false,
+          "value": [0, 0]
+        },
+        "Less Than or Equal To": {
+          "selected": false,
+          "value": 0
+        },
+        "Greater Than or Equal To": {
+          "selected": false,
+          "value": 0
+        },
+        "Exactly": {
+          "selected": false,
+          "value": 0
+        }
+      }
+    },
+    "potSizeStackDepth": {
+      "preflop": {
+        "actualStackSize": {
+          "isEnabled": false,
+          "values": {
+            "bbBetween": {
+              "selected": false,
+              "value": [0, 100]
+            },
+            "myCurrencyBetween": {
+              "selected": false,
+              "value": [0, 100]
+            },
+            "gameCurrencyBetween": {
+              "selected": false,
+              "value": [0, 100]
+            }
+          }
+        },
+        "effectiveStackSize": {
+          "isEnabled": false,
+          "values": {
+            "bbBetween": {
+              "selected": false,
+              "value": [0, 100]
+            },
+            "myCurrencyBetween": {
+              "selected": false,
+              "value": [0, 100]
+            },
+            "gameCurrencyBetween": {
+              "selected": false,
+              "value": [0, 100]
+            }
+          }
+        },
+        "potSize": {
+          "isEnabled": false,
+          "values": {
+            "bbBetween": {
+              "selected": false,
+              "value": [0, 100]
+            },
+            "myCurrencyBetween": {
+              "selected": false,
+              "value": [0, 100]
+            },
+            "gameCurrencyBetween": {
+              "selected": false,
+              "value": [0, 100]
+            }
+          }
+        },
+        "stackToPotRatio": {
+          "isEnabled": false,
+          "value": [0, 25]
+        }
+      },
+      "flop": {
+        "actualStackSize": {
+          "isEnabled": false,
+          "values": {
+            "bbBetween": {
+              "selected": false,
+              "value": [0, 100]
+            },
+            "myCurrencyBetween": {
+              "selected": false,
+              "value": [0, 100]
+            },
+            "gameCurrencyBetween": {
+              "selected": false,
+              "value": [0, 100]
+            }
+          }
+        },
+        "effectiveStackSize": {
+          "isEnabled": false,
+          "values": {
+            "bbBetween": {
+              "selected": false,
+              "value": [0, 100]
+            },
+            "myCurrencyBetween": {
+              "selected": false,
+              "value": [0, 100]
+            },
+            "gameCurrencyBetween": {
+              "selected": false,
+              "value": [0, 100]
+            }
+          }
+        },
+        "potSize": {
+          "isEnabled": false,
+          "values": {
+            "bbBetween": {
+              "selected": false,
+              "value": [0, 100]
+            },
+            "myCurrencyBetween": {
+              "selected": false,
+              "value": [0, 100]
+            },
+            "gameCurrencyBetween": {
+              "selected": false,
+              "value": [0, 100]
+            }
+          }
+        },
+        "stackToPotRatio": {
+          "isEnabled": false,
+          "value": [0, 25]
+        }
+      },
+      "turn": {
+        "actualStackSize": {
+          "isEnabled": false,
+          "values": {
+            "bbBetween": {
+              "selected": false,
+              "value": [0, 100]
+            },
+            "myCurrencyBetween": {
+              "selected": false,
+              "value": [0, 100]
+            },
+            "gameCurrencyBetween": {
+              "selected": false,
+              "value": [0, 100]
+            }
+          }
+        },
+        "effectiveStackSize": {
+          "isEnabled": false,
+          "values": {
+            "bbBetween": {
+              "selected": false,
+              "value": [0, 100]
+            },
+            "myCurrencyBetween": {
+              "selected": false,
+              "value": [0, 100]
+            },
+            "gameCurrencyBetween": {
+              "selected": false,
+              "value": [0, 100]
+            }
+          }
+        },
+        "potSize": {
+          "isEnabled": false,
+          "values": {
+            "bbBetween": {
+              "selected": false,
+              "value": [0, 100]
+            },
+            "myCurrencyBetween": {
+              "selected": false,
+              "value": [0, 100]
+            },
+            "gameCurrencyBetween": {
+              "selected": false,
+              "value": [0, 100]
+            }
+          }
+        },
+        "stackToPotRatio": {
+          "isEnabled": false,
+          "value": [0, 25]
+        }
+      },
+      "river": {
+        "actualStackSize": {
+          "isEnabled": false,
+          "values": {
+            "bbBetween": {
+              "selected": false,
+              "value": [0, 100]
+            },
+            "myCurrencyBetween": {
+              "selected": false,
+              "value": [0, 100]
+            },
+            "gameCurrencyBetween": {
+              "selected": false,
+              "value": [0, 100]
+            }
+          }
+        },
+        "effectiveStackSize": {
+          "isEnabled": false,
+          "values": {
+            "bbBetween": {
+              "selected": false,
+              "value": [0, 100]
+            },
+            "myCurrencyBetween": {
+              "selected": false,
+              "value": [0, 100]
+            },
+            "gameCurrencyBetween": {
+              "selected": false,
+              "value": [0, 100]
+            }
+          }
+        },
+        "potSize": {
+          "isEnabled": false,
+          "values": {
+            "bbBetween": {
+              "selected": false,
+              "value": [0, 100]
+            },
+            "myCurrencyBetween": {
+              "selected": false,
+              "value": [0, 100]
+            },
+            "gameCurrencyBetween": {
+              "selected": false,
+              "value": [0, 100]
+            }
+          }
+        },
+        "stackToPotRatio": {
+          "isEnabled": false,
+          "value": [0, 25]
+        }
+      },
+      "handTotal": {
+        "isEnabled": false,
+        "values": {
+          "bbBetween": {
+            "selected": false,
+            "value": [0, 100]
+          },
+          "myCurrencyBetween": {
+            "selected": false,
+            "value": [0, 100]
+          },
+          "gameCurrencyBetween": {
+            "selected": false,
+            "value": [0, 100]
+          }
+        }
+      }
+    },
+    "numberOfPlayers": {
+      "playersDealtIntoHand": {
+        "isEnabled": false,
+        "value": [2, 10]
+      },
+      "playersSeeingFlop": {
+        "isEnabled": false,
+        "value": [2, 10]
+      },
+      "playersOnTurn": {
+        "isEnabled": false,
+        "value": [2, 10]
+      },
+      "playersOnRiver": {
+        "isEnabled": false,
+        "value": [2, 10]
+      },
+      "playersAtShowdown": {
+        "isEnabled": false,
+        "value": [2, 10]
+      }
+    },
+    "playerPosition": {
+      "preflop": {
+        "isEnabled": false,
+        "value": "Active Player",
+        "positionOfSelected": {
+          "isEnabled": false,
+          "value": {
+            "greaterThanOrEqualTo": {
+              "selected": false,
+              "value": 0
+            },
+            "lessThanOrEqualTo": {
+              "selected": false,
+              "value": 0
+            },
+            "between": {
+              "selected": false,
+              "value": [0, 9]
+            },
+            "exactly": {
+              "selected": false,
+              "value": 0
+            }
+          }
+        }
+      },
+      "flop": {
+        "isEnabled": false,
+        "value": "Active Player",
+        "positionRelativeTo": "All Opponents",
+        "relativePositionOfSelected": {
+          "isEnabled": false,
+          "value": "is-in-position"
+        }
+      },
+      "turn": {
+        "isEnabled": false,
+        "value": "Active Player",
+        "positionRelativeTo": "All Opponents",
+        "relativePositionOfSelected": {
+          "isEnabled": false,
+          "value": "is-in-position"
+        }
+      },
+      "river": {
+        "isEnabled": false,
+        "value": "Active Player",
+        "positionRelativeTo": "All Opponents",
+        "relativePositionOfSelected": {
+          "isEnabled": false,
+          "value": "is-in-position"
+        }
+      }
+    },
+    "playerIsHero": false,
+    "handIsTaggedAs": {
+      "isEnabled": false,
+      "values": [{ "order": 0, "title": "Any Tag" }]
+    },
+    "handsWithNotes": false,
+    "winLoss": {
+      "playerWonHand": false,
+      "playerLostHand": false,
+      "amountWonLost": {
+        "isEnabled": false,
+        "values": {
+          "bbBetween": {
+            "selected": false,
+            "value": [0, 100]
+          },
+          "myCurrencyBetween": {
+            "selected": false,
+            "value": [0, 100]
+          },
+          "gameCurrencyBetween": {
+            "selected": false,
+            "value": [0, 100]
+          }
+        }
+      }
+    },
+    "amountContributedToPot": {
+      "bbContributionAmount": {
+        "isEnabled": false,
+        "values": {
+          "anyContribution": false,
+          "between": {
+            "selected": false,
+            "value": [0, 0]
+          },
+          "lessThanOrEqualTo": {
+            "selected": false,
+            "value": 0
+          },
+          "greaterThanOrEqualTo": {
+            "selected": false,
+            "value": 0
+          },
+          "exactly": {
+            "selected": false,
+            "value": 0
+          }
+        }
+      },
+      "myCurrencyContributionAmount": {
+        "isEnabled": false,
+        "values": {
+          "anyContribution": false,
+          "between": {
+            "selected": false,
+            "value": [0, 0]
+          },
+          "lessThanOrEqualTo": {
+            "selected": false,
+            "value": 0
+          },
+          "greaterThanOrEqualTo": {
+            "selected": false,
+            "value": 0
+          },
+          "exactly": {
+            "selected": false,
+            "value": 0
+          }
+        }
+      },
+      "gameCurrencyContributionAmount": {
+        "isEnabled": false,
+        "values": {
+          "anyContribution": false,
+          "between": {
+            "selected": false,
+            "value": [0, 0]
+          },
+          "lessThanOrEqualTo": {
+            "selected": false,
+            "value": 0
+          },
+          "greaterThanOrEqualTo": {
+            "selected": false,
+            "value": 0
+          },
+          "exactly": {
+            "selected": false,
+            "value": 0
+          }
+        }
+      }
+    },
+    "payoutsReceived": {
+      "handsWithPayoutReceived": false,
+      "payoutReceivedWasGood": false,
+      "payoutReceivedWasBad": false,
+      "netPayoutReceived": {
+        "isEnabled": false,
+        "values": {
+          "bbBetween": {
+            "selected": false,
+            "value": [0, 0]
+          },
+          "gameCurrencyBetween": {
+            "selected": false,
+            "value": [0, 0]
+          },
+          "myCurrencyBetween": {
+            "selected": false,
+            "value": [0, 0]
+          }
+        }
+      },
+      "grossPayoutReceived": {
+        "isEnabled": false,
+        "values": {
+          "bbBetween": {
+            "selected": false,
+            "value": [0, 0]
+          },
+          "gameCurrencyBetween": {
+            "selected": false,
+            "value": [0, 0]
+          },
+          "myCurrencyBetween": {
+            "selected": false,
+            "value": [0, 0]
+          }
+        }
+      },
+      "payoutFee": {
+        "isEnabled": false,
+        "values": {
+          "bbBetween": {
+            "selected": false,
+            "value": [0, 0]
+          },
+          "gameCurrencyBetween": {
+            "selected": false,
+            "value": [0, 0]
+          },
+          "myCurrencyBetween": {
+            "selected": false,
+            "value": [0, 0]
+          }
+        }
+      }
+    },
+    "handsWentToShowdown": false,
+    "handWasASplitPot": false,
+    "handHasStraddle": false,
+    "rakeAndJackpot": {
+      "rakeTake": {
+        "isEnabled": false,
+        "values": {
+          "bbBetween": {
+            "selected": false,
+            "value": [0, 5]
+          },
+          "gameCurrencyBetween": {
+            "selected": false,
+            "value": [0, 5]
+          },
+          "myCurrencyBetween": {
+            "selected": false,
+            "value": [0, 5]
+          }
+        }
+      },
+      "rakeShare": {
+        "isEnabled": false,
+        "values": {
+          "bbBetween": {
+            "selected": false,
+            "value": [0, 5]
+          },
+          "gameCurrencyBetween": {
+            "selected": false,
+            "value": [0, 5]
+          },
+          "myCurrencyBetween": {
+            "selected": false,
+            "value": [0, 5]
+          }
+        }
+      },
+      "rakeContributed": {
+        "isEnabled": false,
+        "values": {
+          "bbBetween": {
+            "selected": false,
+            "value": [0, 5]
+          },
+          "gameCurrencyBetween": {
+            "selected": false,
+            "value": [0, 5]
+          },
+          "myCurrencyBetween": {
+            "selected": false,
+            "value": [0, 5]
+          }
+        }
+      },
+      "badBeatJackpot": {
+        "isEnabled": false,
+        "feeTaken": {
+          "selected": false
+        }
+      }
+    }
+  }
+}

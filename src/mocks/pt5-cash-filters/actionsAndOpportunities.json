@@ -1,0 +1,811 @@
+{
+  "response": {
+    "code": 200,
+    "message": "OK"
+  },
+  "actionsAndOpportunities": {
+    "preflop": {
+      "voluntarilyPutMoneyInPot": false,
+      "postedBlindAnte": {
+        "isEnabled": false,
+        "values": []
+      },
+      "preflopRaises": {
+        "raisedPreflop": {
+          "isEnabled": false,
+          "values": []
+        },
+        "raisedFirstIn": false,
+        "attemptedSteal": false,
+        "raisedSteal": false,
+        "squeezed": false,
+        "raisedAllInPreflop": false
+      },
+      "preflopCalls": {
+        "calledPreflop": {
+          "isEnabled": false,
+          "values": []
+        },
+        "limped": {
+          "isEnabled": false,
+          "values": []
+        },
+        "calledSteal": false,
+        "calledSqueeze": false,
+        "wentAllIn": false,
+        "coldCalledPreflop": {
+          "isEnabled": false,
+          "values": []
+        }
+      },
+      "preflopFolds": {
+        "foldedPreflop": {
+          "isEnabled": false,
+          "values": []
+        },
+        "foldedAsFirstAction": false,
+        "foldedToSteal": false,
+        "foldedToSqueeze": false,
+        "foldedToPreflopAllIn": false
+      },
+      "preflopOpportunities": {
+        "firstAction": {
+          "isEnabled": false,
+          "values": []
+        },
+        "stealOpportunity": false,
+        "squeezeOpportunity": false,
+        "facedPreflopAllIn": false,
+        "reraiseOpportunity": {
+          "isEnabled": false,
+          "values": []
+        },
+        "facedStealAttempt": {
+          "isEnabled": false,
+          "values": []
+        },
+        "coldCalledOpportunity": {
+          "isEnabled": false,
+          "values": []
+        }
+      },
+      "preflopActionSequence": {
+        "firstPreflopAction": {
+          "isEnabled": false,
+          "values": []
+        },
+        "secondPreflopAction": {
+          "isEnabled": false,
+          "values": []
+        },
+        "thirdPreflopAction": {
+          "isEnabled": false,
+          "values": []
+        },
+        "fourthPreflopAction": {
+          "isEnabled": false,
+          "values": []
+        },
+        "fifthPreflopAction": {
+          "isEnabled": false,
+          "values": []
+        }
+      },
+      "preflopBetSizing": {
+        "totalPutInPot": {
+          "isEnabled": false,
+          "values": {
+            "bbBetween": {
+              "selected": false,
+              "value": [1, 100]
+            },
+            "gameCurrencyBetween": {
+              "selected": false,
+              "value": [0.01, 100]
+            }
+          }
+        },
+        "twoBetSize": {
+          "isEnabled": false,
+          "values": {
+            "bbBetween": {
+              "selected": false,
+              "value": [1, 100]
+            },
+            "gameCurrencyBetween": {
+              "selected": false,
+              "value": [0.01, 100]
+            },
+            "percentageOfPotBetween": {
+              "selected": false,
+              "value": [50, 75]
+            }
+          }
+        },
+        "threeBetSize": {
+          "isEnabled": false,
+          "values": {
+            "bbBetween": {
+              "selected": false,
+              "value": [1, 100]
+            },
+            "gameCurrencyBetween": {
+              "selected": false,
+              "value": [0.01, 100]
+            },
+            "percentageOfPotBetween": {
+              "selected": false,
+              "value": [50, 75]
+            },
+            "multipleOfTheTwoBetBetween": {
+              "selected": false,
+              "value": [0.1, 3]
+            }
+          }
+        },
+        "fourBetPlusSize": {
+          "isEnabled": false,
+          "values": {
+            "bbBetween": {
+              "selected": false,
+              "value": [1, 100]
+            },
+            "gameCurrencyBetween": {
+              "selected": false,
+              "value": [0.01, 100]
+            },
+            "percentageOfPotBetween": {
+              "selected": false,
+              "value": [50, 75]
+            },
+            "multipleOfTheThreeBetBetween": {
+              "selected": false,
+              "value": [0.1, 3]
+            }
+          }
+        }
+      },
+      "preflopActionsEncounteredWithSizes": {
+        "sizesCalculatedIn": {
+          "isEnabled": false,
+          "value": "Big Blinds"
+        },
+        "preflopActionFacedWithSize": {
+          "isEnabled": false,
+          "values": {
+            "anyRaiseBetween": {
+              "selected": false,
+              "value": [0.01, 100]
+            },
+            "twoBetPreflopBetween": {
+              "selected": false,
+              "value": [0.01, 100]
+            },
+            "threeBetPreflopBetween": {
+              "selected": false,
+              "value": [0.01, 100]
+            },
+            "fourBetPreflopBetween": {
+              "selected": false,
+              "value": [0.01, 100]
+            },
+            "fiveBetOrHigherPreflopBetween": {
+              "selected": false,
+              "value": [0.01, 100]
+            },
+            "allInPreflopBetween": {
+              "selected": false,
+              "value": [0.01, 100]
+            },
+            "facingStealBetween": {
+              "selected": false,
+              "value": [0.01, 100]
+            },
+            "facingSqueezeBetween": {
+              "selected": false,
+              "value": [0.01, 100]
+            }
+          }
+        }
+      }
+    },
+    "flop": {
+      "sawFlop": false,
+      "checkedFlop": false,
+      "flopBets": {
+        "betFlop": {
+          "isEnabled": false,
+          "values": []
+        }
+      },
+      "flopRaises": {
+        "raisedFlop": {
+          "isEnabled": false,
+          "values": []
+        },
+        "flopRaiseType": {
+          "isEnabled": false,
+          "values": []
+        }
+      },
+      "flopCalls": {
+        "calledFlop": {
+          "isEnabled": false,
+          "values": []
+        },
+        "calledContinuationBet": false,
+        "calledDonkBet": false,
+        "calledFloatBet": false,
+        "calledAllIn": false
+      },
+      "flopFolds": {
+        "foldedFlop": {
+          "isEnabled": false,
+          "values": []
+        },
+        "foldedToContinuationBet": false,
+        "foldedToDonkBet": false,
+        "foldedToFloatBet": false,
+        "foldedToAllIn": false
+      },
+      "flopOpportunities": {
+        "openThePotBet": false,
+        "facedAllIn": false,
+        "specificBetOpportunity": {
+          "isEnabled": false,
+          "values": []
+        },
+        "raiseOpportunity": {
+          "isEnabled": false,
+          "values": []
+        },
+        "raiseOpportunityType": {
+          "isEnabled": false,
+          "values": []
+        }
+      },
+      "flopActionSequence": {
+        "firstFlopAction": {
+          "isEnabled": false,
+          "values": []
+        },
+        "secondFlopAction": {
+          "isEnabled": false,
+          "values": []
+        },
+        "thirdFlopAction": {
+          "isEnabled": false,
+          "values": []
+        },
+        "fourthFlopAction": {
+          "isEnabled": false,
+          "values": []
+        },
+        "fifthFlopAction": {
+          "isEnabled": false,
+          "values": []
+        }
+      },
+      "flopBetSizing": {
+        "flopBetSize": {
+          "isEnabled": false,
+          "values": {
+            "percentageOfPotBetween": {
+              "selected": false,
+              "value": [50, 75]
+            },
+            "bbBetween": {
+              "selected": false,
+              "value": [1, 100]
+            },
+            "gameCurrencyBetween": {
+              "selected": false,
+              "value": [0.01, 100]
+            }
+          }
+        },
+        "flopTwoBetSize": {
+          "isEnabled": false,
+          "values": {
+            "percentageOfPotBetween": {
+              "selected": false,
+              "value": [50, 75]
+            },
+            "bbBetween": {
+              "selected": false,
+              "value": [1, 100]
+            },
+            "gameCurrencyBetween": {
+              "selected": false,
+              "value": [0.01, 100]
+            }
+          }
+        },
+        "flopThreeBetSize": {
+          "isEnabled": false,
+          "values": {
+            "percentageOfPotBetween": {
+              "selected": false,
+              "value": [50, 75]
+            },
+            "bbBetween": {
+              "selected": false,
+              "value": [1, 100]
+            },
+            "gameCurrencyBetween": {
+              "selected": false,
+              "value": [0.01, 100]
+            }
+          }
+        },
+        "flopFourBetSize": {
+          "isEnabled": false,
+          "values": {
+            "percentageOfPotBetween": {
+              "selected": false,
+              "value": [50, 75]
+            },
+            "bbBetween": {
+              "selected": false,
+              "value": [1, 100]
+            },
+            "gameCurrencyBetween": {
+              "selected": false,
+              "value": [0.01, 100]
+            }
+          }
+        }
+      },
+      "flopActionsEncounteredWithSizes": {
+        "sizesCalculatedIn": {
+          "isEnabled": false,
+          "value": "Big Blinds"
+        },
+        "facingFlopBet": {
+          "isEnabled": false,
+          "values": {
+            "anyFlopBetOrRaiseBetween": {
+              "selected": false,
+              "value": [0.01, 100]
+            },
+            "flopBetBetween": {
+              "selected": false,
+              "value": [0.01, 100]
+            },
+            "flopTwoBetFirstFlopRaiseBetween": {
+              "selected": false,
+              "value": [0.01, 100]
+            },
+            "flopThreeBetBetween": {
+              "selected": false,
+              "value": [0.01, 100]
+            },
+            "flopFourBetBetween": {
+              "selected": false,
+              "value": [0.01, 100]
+            },
+            "flopContinuationBetBetween": {
+              "selected": false,
+              "value": [0.01, 100]
+            },
+            "flopDonkBetBetween": {
+              "selected": false,
+              "value": [0.01, 100]
+            },
+            "flopFloatBetBetween": {
+              "selected": false,
+              "value": [0.01, 100]
+            },
+            "flopAllInBetween": {
+              "selected": false,
+              "value": [0.01, 100]
+            }
+          }
+        }
+      }
+    },
+    "turn": {
+      "sawTurn": false,
+      "checkedTurn": false,
+      "turnBets": {
+        "betTurn": {
+          "isEnabled": false,
+          "values": []
+        }
+      },
+      "turnRaises": {
+        "raisedTurn": {
+          "isEnabled": false,
+          "values": []
+        },
+        "turnRaiseType": {
+          "isEnabled": false,
+          "values": []
+        }
+      },
+      "turnCalls": {
+        "calledTurn": {
+          "isEnabled": false,
+          "values": []
+        },
+        "calledContinuationBet": false,
+        "calledDonkBet": false,
+        "calledFloatBet": false,
+        "calledProbeBet": false,
+        "calledAllIn": false
+      },
+      "turnFolds": {
+        "foldedTurn": {
+          "isEnabled": false,
+          "values": []
+        },
+        "foldedToContinuationBet": false,
+        "foldedToDonkBet": false,
+        "foldedToFloatBet": false,
+        "foldedToProbeBet": false,
+        "foldedToAllIn": false
+      },
+      "turnOpportunities": {
+        "openThePotBet": false,
+        "facedAllIn": false,
+        "specificBetOpportunity": {
+          "isEnabled": false,
+          "values": []
+        },
+        "raiseOpportunity": {
+          "isEnabled": false,
+          "values": []
+        },
+        "raiseOpportunityType": {
+          "isEnabled": false,
+          "values": []
+        }
+      },
+      "turnActionSequence": {
+        "firstTurnAction": {
+          "isEnabled": false,
+          "values": []
+        },
+        "secondTurnAction": {
+          "isEnabled": false,
+          "values": []
+        },
+        "thirdTurnAction": {
+          "isEnabled": false,
+          "values": []
+        },
+        "fourthTurnAction": {
+          "isEnabled": false,
+          "values": []
+        },
+        "fifthTurnAction": {
+          "isEnabled": false,
+          "values": []
+        }
+      },
+      "turnBetSizing": {
+        "turnBetSize": {
+          "isEnabled": false,
+          "values": {
+            "percentageOfPotBetween": {
+              "selected": false,
+              "value": [50, 75]
+            },
+            "bbBetween": {
+              "selected": false,
+              "value": [1, 100]
+            },
+            "gameCurrencyBetween": {
+              "selected": false,
+              "value": [0.01, 100]
+            }
+          }
+        },
+        "turnTwoBetSize": {
+          "isEnabled": false,
+          "values": {
+            "percentageOfPotBetween": {
+              "selected": false,
+              "value": [50, 75]
+            },
+            "bbBetween": {
+              "selected": false,
+              "value": [1, 100]
+            },
+            "gameCurrencyBetween": {
+              "selected": false,
+              "value": [0.01, 100]
+            }
+          }
+        },
+        "turnThreeBetSize": {
+          "isEnabled": false,
+          "values": {
+            "percentageOfPotBetween": {
+              "selected": false,
+              "value": [50, 75]
+            },
+            "bbBetween": {
+              "selected": false,
+              "value": [1, 100]
+            },
+            "gameCurrencyBetween": {
+              "selected": false,
+              "value": [0.01, 100]
+            }
+          }
+        },
+        "turnFourBetSize": {
+          "isEnabled": false,
+          "values": {
+            "percentageOfPotBetween": {
+              "selected": false,
+              "value": [50, 75]
+            },
+            "bbBetween": {
+              "selected": false,
+              "value": [1, 100]
+            },
+            "gameCurrencyBetween": {
+              "selected": false,
+              "value": [0.01, 100]
+            }
+          }
+        }
+      },
+      "turnActionsEncounteredWithSizes": {
+        "sizesCalculatedIn": {
+          "isEnabled": false,
+          "value": "Big Blinds"
+        },
+        "facingTurnBet": {
+          "isEnabled": false,
+          "values": {
+            "anyTurnBetOrRaiseBetween": {
+              "selected": false,
+              "value": [0.01, 100]
+            },
+            "turnBetBetween": {
+              "selected": false,
+              "value": [0.01, 100]
+            },
+            "turnTwoBetFirstTurnRaiseBetween": {
+              "selected": false,
+              "value": [0.01, 100]
+            },
+            "turnThreeBetBetween": {
+              "selected": false,
+              "value": [0.01, 100]
+            },
+            "turnFourBetBetween": {
+              "selected": false,
+              "value": [0.01, 100]
+            },
+            "turnContinuationBetBetween": {
+              "selected": false,
+              "value": [0.01, 100]
+            },
+            "turnDonkBetBetween": {
+              "selected": false,
+              "value": [0.01, 100]
+            },
+            "turnFloatBetBetween": {
+              "selected": false,
+              "value": [0.01, 100]
+            },
+            "turnProbeBetBetween": {
+              "selected": false,
+              "value": [0.01, 100]
+            },
+            "turnAllInBetween": {
+              "selected": false,
+              "value": [0.01, 100]
+            }
+          }
+        }
+      }
+    },
+    "river": {
+      "sawRiver": false,
+      "sawShowdown": false,
+      "checkedRiver": false,
+      "riverBets": {
+        "betRiver": {
+          "isEnabled": false,
+          "values": []
+        }
+      },
+      "riverRaises": {
+        "raisedRiver": {
+          "isEnabled": false,
+          "values": []
+        },
+        "raiseType": {
+          "isEnabled": false,
+          "values": []
+        }
+      },
+      "riverCalls": {
+        "calledRiver": {
+          "isEnabled": false,
+          "values": []
+        },
+        "calledContinuationBet": false,
+        "calledDonkBet": false,
+        "calledFloatBet": false,
+        "calledProbeBet": false,
+        "calledAllIn": false
+      },
+      "riverFolds": {
+        "foldedRiver": {
+          "isEnabled": false,
+          "values": []
+        },
+        "foldedToContinuationBet": false,
+        "foldedToDonkBet": false,
+        "foldedToFloatBet": false,
+        "foldedToProbeBet": false,
+        "foldedToAllIn": false
+      },
+      "riverOpportunities": {
+        "openThePotBet": false,
+        "facedAllIn": false,
+        "specificBetOpportunity": {
+          "isEnabled": false,
+          "values": []
+        },
+        "raiseOpportunity": {
+          "isEnabled": false,
+          "values": []
+        },
+        "raiseOpportunityType": {
+          "isEnabled": false,
+          "values": []
+        }
+      },
+      "riverActionSequence": {
+        "firstRiverAction": {
+          "isEnabled": false,
+          "values": []
+        },
+        "secondRiverAction": {
+          "isEnabled": false,
+          "values": []
+        },
+        "thirdRiverAction": {
+          "isEnabled": false,
+          "values": []
+        },
+        "fourthRiverAction": {
+          "isEnabled": false,
+          "values": []
+        },
+        "fifthRiverAction": {
+          "isEnabled": false,
+          "values": []
+        }
+      },
+      "riverBetSizing": {
+        "riverBetSize": {
+          "isEnabled": false,
+          "values": {
+            "percentageOfPotBetween": {
+              "selected": false,
+              "value": [50, 75]
+            },
+            "bbBetween": {
+              "selected": false,
+              "value": [1, 100]
+            },
+            "gameCurrencyBetween": {
+              "selected": false,
+              "value": [0.01, 100]
+            }
+          }
+        },
+        "riverTwoBetSize": {
+          "isEnabled": false,
+          "values": {
+            "percentageOfPotBetween": {
+              "selected": false,
+              "value": [50, 75]
+            },
+            "bbBetween": {
+              "selected": false,
+              "value": [1, 100]
+            },
+            "gameCurrencyBetween": {
+              "selected": false,
+              "value": [0.01, 100]
+            }
+          }
+        },
+        "riverThreeBetSize": {
+          "isEnabled": false,
+          "values": {
+            "percentageOfPotBetween": {
+              "selected": false,
+              "value": [50, 75]
+            },
+            "bbBetween": {
+              "selected": false,
+              "value": [1, 100]
+            },
+            "gameCurrencyBetween": {
+              "selected": false,
+              "value": [0.01, 100]
+            }
+          }
+        },
+        "riverFourBetSize": {
+          "isEnabled": false,
+          "values": {
+            "percentageOfPotBetween": {
+              "selected": false,
+              "value": [50, 75]
+            },
+            "bbBetween": {
+              "selected": false,
+              "value": [1, 100]
+            },
+            "gameCurrencyBetween": {
+              "selected": false,
+              "value": [0.01, 100]
+            }
+          }
+        }
+      },
+      "riverActionsEncounteredWithSizes": {
+        "sizesCalculatedIn": {
+          "isEnabled": false,
+          "value": "Big Blinds"
+        },
+        "facingRiverBet": {
+          "isEnabled": false,
+          "values": {
+            "anyRiverBetOrRaiseBetween": {
+              "selected": false,
+              "value": [0.01, 100]
+            },
+            "riverBetBetween": {
+              "selected": false,
+              "value": [0.01, 100]
+            },
+            "riverTwoBetFirstRiverRaiseBetween": {
+              "selected": false,
+              "value": [0.01, 100]
+            },
+            "riverThreeBetBetween": {
+              "selected": false,
+              "value": [0.01, 100]
+            },
+            "riverFourBetBetween": {
+              "selected": false,
+              "value": [0.01, 100]
+            },
+            "riverContinuationBetBetween": {
+              "selected": false,
+              "value": [0.01, 100]
+            },
+            "riverDonkBetBetween": {
+              "selected": false,
+              "value": [0.01, 100]
+            },
+            "riverFloatBetBetween": {
+              "selected": false,
+              "value": [0.01, 100]
+            },
+            "riverProbeBetBetween": {
+              "selected": false,
+              "value": [0.01, 100]
+            },
+            "riverAllInBetween": {
+              "selected": false,
+              "value": [0.01, 100]
+            }
+          }
+        }
+      }
+    }
+  }
+}

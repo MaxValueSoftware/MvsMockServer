@@ -1,0 +1,155 @@
+{
+  "response": {
+    "code": 200,
+    "message": "OK"
+  },
+  "gameDetails": {
+    "dates": {
+      "specificDate": {
+        "isEnabled": false,
+        "values": {
+          "Today": {
+            "selected": false
+          },
+          "Yesterday": {
+            "selected": false
+          },
+          "This Month": {
+            "selected": false
+          },
+          "This Year": {
+            "selected": false
+          },
+          "On a Date": {
+            "selected": false,
+            "value": null
+          },
+          "Since Date": {
+            "selected": false,
+            "value": null
+          },
+          "Between": {
+            "selected": false,
+            "value": [null, null]
+          }
+        }
+      },
+      "dayOfWeek": {
+        "isEnabled": false,
+        "values": {
+          "Monday": false,
+          "Tuesday": false,
+          "Wednesday": false,
+          "Thursday": false,
+          "Firday": false,
+          "Saturday": false,
+          "Sunday": false
+        }
+      },
+      "timeOfDay": {
+        "isEnabled": false,
+        "value": [null, null]
+      },
+      "lastDateHandsFilter": {
+        "selected": "",
+        "values": {
+          "lastYears": {
+            "selected": false,
+            "value": null
+          },
+          "lastMonths": {
+            "selected": false,
+            "value": null
+          },
+          "lastDays": {
+            "selected": false,
+            "value": null
+          },
+          "lastHours": {
+            "selected": false,
+            "value": null
+          },
+          "lastHands": {
+            "selected": false,
+            "value": null
+          },
+          "lastSessions": {
+            "selected": false,
+            "value": null
+          }
+        }
+      }
+    },
+    "gameAndBetTypes": {
+      "gameType": {
+        "isEnabled": false,
+        "values": []
+      },
+      "betType": {
+        "isEnabled": false,
+        "values": []
+      }
+    },
+    "currencies": {
+      "realMoneyFilter": {
+        "isEnabled": false,
+        "values": []
+      },
+      "playMoneyFilter": {
+        "isEnabled": false,
+        "selected": false
+      }
+    },
+    "sites": {
+      "isEnabled": false,
+      "values": []
+    },
+    "stakes": {
+      "stakesByBetType": {
+        "isEnabled": false,
+        "values": []
+      },
+      "stakesByTableSize": {
+        "isEnabled": false,
+        "values": []
+      },
+      "holdemStakes": {
+        "isEnabled": false,
+        "values": []
+      },
+      "omahaHiStakes": {
+        "isEnabled": false,
+        "values": []
+      },
+      "omahaHiLoStakes": {
+        "isEnabled": false,
+        "values": []
+      }
+    },
+    "cashGameBlindsAntes": {
+      "blindFilter": {
+        "isEnabled": false,
+        "bigBlindBetween": {
+          "selected": false,
+          "values": [0, 0]
+        },
+        "bigBlindLessThanOrEqualTo": {
+          "selected": false,
+          "value": 0
+        },
+        "bigBlindGreaterThanOrEqualTo": {
+          "selected": false,
+          "value": 0
+        },
+        "bigBlindEqualTo": {
+          "selected": false,
+          "value": 0
+        }
+      },
+      "anteFilter": {
+        "isEnabled": false,
+        "value": ""
+      }
+    }
+  }
+}

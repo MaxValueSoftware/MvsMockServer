@@ -1,0 +1,287 @@
+{
+  "response": {
+    "code": 200,
+    "message": "OK"
+  },
+  "handValues": {
+    "holdCardsRangeSelection": {},
+    "madeHands": {
+      "highCard": {
+        "madeHandHighCard": {
+          "isEnabled": false,
+          "values": [{ "order": 0, "title": "Any Street" }]
+        },
+        "overcardsAnyStreet": {
+          "isEnabled": false,
+          "values": [{ "order": 0, "title": "Any Overcards" }]
+        },
+        "overcardsFlop": {
+          "isEnabled": false,
+          "values": [{ "order": 0, "title": "Any Overcards" }]
+        },
+        "overcardsTurn": {
+          "isEnabled": false,
+          "values": [{ "order": 0, "title": "Any Overcards" }]
+        },
+        "overcardsRiver": {
+          "isEnabled": false,
+          "values": [{ "order": 0, "title": "Any Overcards" }]
+        },
+        "overcardsAllThreeStreets": {
+          "isEnabled": false,
+          "values": [{ "order": 0, "title": "Any Overcards" }]
+        }
+      },
+      "onePair": {
+        "madeOnePairOn": {
+          "isEnabled": false,
+          "value": "Any Street"
+        },
+        "usingTwoHoleCards": {
+          "isEnabled": false,
+          "values": [{ "order": 0, "title": "Any Pocket Pair" }]
+        },
+        "usingOneHoleCard": {
+          "isEnabled": false,
+          "values": [{ "order": 0, "title": "Any Pair" }]
+        },
+        "usingNoHoleCards": {
+          "isEnabled": false,
+          "value": {
+            "isEnabled": false,
+            "value": "Any Kicker"
+          }
+        }
+      },
+      "twoPair": {
+        "madeTwoPairOn": {
+          "isEnabled": false,
+          "value": "Any Street"
+        },
+        "usingTwoHoleCardsNoPocketPair": {
+          "isEnabled": false,
+          "values": [{ "order": 0, "title": "Any Two Pair" }]
+        },
+        "usingTwoHoleCardsPocketPair": {
+          "isEnabled": false,
+          "values": [{ "order": 0, "title": "Any Two Pair" }]
+        },
+        "usingOneHoleCard": {
+          "isEnabled": false,
+          "values": [{ "order": 0, "title": "Any Pair and Paired Board" }]
+        },
+        "usingNoHoleCards": {
+          "isEnabled": false,
+          "value": {
+            "isEnabled": false,
+            "value": "Any Kicker"
+          }
+        }
+      },
+      "threeOfAKind": {
+        "madeThreeOfAKindOn": {
+          "isEnabled": false,
+          "value": "Any Street"
+        },
+        "withPocketPairTwoHoleCards": {
+          "isEnabled": false,
+          "values": [{ "order": 0, "title": "Any Set" }]
+        },
+        "usingOneHoleCard": {
+          "isEnabled": false,
+          "values": [{ "order": 0, "title": "Any Trips" }]
+        },
+        "usingNoHoleCardsSetOnBoard": {
+          "isEnabled": false,
+          "value": {
+            "isEnabled": false,
+            "value": "Any Kicker"
+          }
+        }
+      },
+      "straight": {
+        "madeStraightOn": {
+          "isEnabled": false,
+          "value": "Any Street"
+        },
+        "usingHoleCardsFilter": {
+          "isEnabled": false,
+          "values": [{ "order": 0, "title": "Using Any Hole Cards" }]
+        },
+        "straightStrength": {
+          "isEnabled": false,
+          "values": [{ "order": 0, "title": "Any Straight" }]
+        },
+        "backdoorStraightCompleted": {
+          "isEnabled": false,
+          "value": false
+        }
+      },
+      "flush": {
+        "madeFlushOn": {
+          "isEnabled": false,
+          "value": "Any Street"
+        },
+        "usingHoleCardsFilter": {
+          "isEnabled": false,
+          "values": [{ "order": 0, "title": "Using Any Hole Cards" }]
+        },
+        "flushStrength": {
+          "isEnabled": false,
+          "values": [{ "order": 0, "title": "Any Flush" }]
+        }
+      },
+      "fullHouse": {
+        "madeFullHouseOn": {
+          "isEnabled": false,
+          "value": "Any Street"
+        },
+        "withPocketPair": {
+          "isEnabled": false,
+          "values": [{ "order": 0, "title": "Any Board Texture" }]
+        },
+        "withTwoHoleCardsAndNoPocketPair": {
+          "isEnabled": false,
+          "values": [{ "order": 0, "title": "Any Board Texture" }]
+        },
+        "usingOneHoleCard": {
+          "isEnabled": false,
+          "values": [{ "order": 0, "title": "Any Board Texture" }]
+        },
+        "usingNoHoleCardsOnBoardRiver": {
+          "isEnabled": false,
+          "value": false
+        },
+        "madeNutFullHouseOn": {
+          "isEnabled": false,
+          "value": "Any Street"
+        }
+      },
+      "fourOfAKind": {
+        "madeFourOfAKindOn": {
+          "isEnabled": false,
+          "value": "Any Street"
+        },
+        "usingHoleCardsFilter": {
+          "isEnabled": false,
+          "values": [{ "order": 0, "title": "Using Any Hole Cards" }]
+        },
+        "usingNoHoleCardsQuadsOnBoard": {
+          "isEnabled": false,
+          "values": [{ "order": 0, "title": "Any Kicker" }]
+        }
+      },
+      "straightFlush": {
+        "madeStraightFlushOn": {
+          "isEnabled": false,
+          "value": "Any Street"
+        },
+        "usingHoleCardsFilter": {
+          "isEnabled": false,
+          "values": [{ "order": 0, "title": "Using Any Hole Cards" }]
+        },
+        "straightFlushStrength": {
+          "isEnabled": false,
+          "values": [{ "order": 0, "title": "Any Straight" }]
+        }
+      },
+      "lowHandOmahaOnly": {
+        "lowHandFilter": {
+          "isEnabled": false,
+          "values": [{ "order": 0, "title": "Made Low Hand" }]
+        },
+        "madeLowHandOn": {
+          "isEnabled": false,
+          "value": "Any Street"
+        },
+        "lowHandStrength": {
+          "isEnabled": false,
+          "values": [{ "order": 0, "title": "Any Strength" }]
+        }
+      }
+    },
+    "straightDraws": {
+      "holdemStraightDraws": {
+        "straightDrawOn": {
+          "isEnabled": false,
+          "value": "Any Street"
+        },
+        "gutshotStraight": {
+          "isEnabled": false,
+          "values": [{ "order": 0, "title": "Any Gutshot Draw" }]
+        },
+        "openEndedDoubleGutshotDraw": {
+          "isEnabled": false,
+          "values": [{ "order": 0, "title": "Any Open-Ended / Double Gutshot Draw" }]
+        },
+        "backdoorStraightDraw": {
+          "isEnabled": false
+        },
+        "noStraightDrawOnAnyStreet": {
+          "isEnabled": false
+        }
+      },
+      "omahaStraightDraws": {
+        "straightDrawOn": {
+          "isEnabled": false,
+          "value": "Any Street"
+        },
+        "fourOutGutshotStraightDraw": {
+          "isEnabled": false,
+          "values": [{ "order": 0, "title": "Any Gutshot Draw" }]
+        },
+        "eightOutOpenEndedDoubleGutshotDraw": {
+          "isEnabled": false,
+          "values": [{ "order": 0, "title": "Any Open-Ended / Double Gutshot Draw" }]
+        },
+        "eightOrNineOutInsideWrapDraw": {
+          "isEnabled": false,
+          "values": [{ "order": 0, "title": "Any 8 or 9 Out Inside Wrap Draw" }]
+        },
+        "twelveOrThirteenOutWrapDraw": {
+          "isEnabled": false,
+          "values": [{ "order": 0, "title": "Any 12 or 13 Out Wrap Draw" }]
+        },
+        "sixteenOrSeventeenOutWrapDraw": {
+          "isEnabled": false,
+          "values": [{ "order": 0, "title": "Any 16 or 17 Out Wrap Draw" }]
+        },
+        "twentyOutWrapDraw": {
+          "isEnabled": false
+        },
+        "noStraightDrawOnAnyStreet": {
+          "isEnabled": false
+        }
+      }
+    },
+    "flushDraws": {
+      "flushDrawOn": {
+        "isEnabled": false,
+        "value": "Any Street",
+        "using": "Any Hole Cards"
+      },
+      "flushDrawStrength": {
+        "isEnabled": false,
+        "values": [{ "order": 0, "title": "Any Flush Draw Strength" }]
+      },
+      "otherFlushDrawOptions": {
+        "isEnabled": false,
+        "values": [{ "order": 0, "title": "No Flush Draw" }]
+      },
+      "nutFlushBlocker": {
+        "isEnabled": false,
+        "values": [{ "order": 0, "title": "Any Street" }]
+      }
+    },
+    "lowDrawsOmahaOnly": {
+      "lowDraw": {
+        "isEnabled": false,
+        "value": "Any Street"
+      },
+      "lowDrawStrength": {
+        "isEnabled": false,
+        "values": [{ "order": 0, "title": "Any Low Draw" }]
+      }
+    }
+  }
+}

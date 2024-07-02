@@ -13,19 +13,19 @@
       "values": {
         "Between": {
           "selected": false,
-          "value": [0, 0]
+          "value": [0, 2]
         },
         "Less Than or Equal To": {
           "selected": false,
-          "value": 0
+          "value": 9
         },
         "Greater Than or Equal To": {
           "selected": false,
-          "value": 0
+          "value": 1
         },
         "Exactly": {
           "selected": false,
-          "value": 0
+          "value": 9
         }
       }
     },

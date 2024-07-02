@@ -3,7 +3,7 @@
     "code": 200,
     "message": "OK"
   },
-  "boadTexture": {
+  "boardTexture": {
     "boardCards": {
       "flop": {
         "broadwayCards": {

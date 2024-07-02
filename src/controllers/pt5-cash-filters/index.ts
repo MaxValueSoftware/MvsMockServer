@@ -7,6 +7,12 @@ import {
   getHandValues,
   getBoardTexture,
   getActionsAndOpportunities,
+  saveFilter,
+  deleteFilter,
+  deleteFilterGroup,
+  mergeGroup,
+  inverseGroup,
+  ungroup,
 } from './pt5CashFilters.controller'
 
 const router = express.Router()
@@ -17,5 +23,12 @@ router.route('/session-details').get(getSessionDetails)
 router.route('/hand-values').get(getHandValues)
 router.route('/board-texture').get(getBoardTexture)
 router.route('/actions-opportunities').get(getActionsAndOpportunities)
+
+router.route('/save').post(saveFilter)
+router.route('/delete').delete(deleteFilter)
+router.route('/group/delete').delete(deleteFilterGroup)
+router.route('/group/merge').post(mergeGroup)
+router.route('/group/inverse').post(inverseGroup)
+router.route('/group/ungroup').post(ungroup)
 
 export { router }

@@ -24,11 +24,11 @@ router.route('/hand-values').get(getHandValues)
 router.route('/board-texture').get(getBoardTexture)
 router.route('/actions-opportunities').get(getActionsAndOpportunities)
 
-router.route('/save').post(saveFilter)
+router.route('/addFilter').post(saveFilter)
 router.route('/delete').delete(deleteFilter)
-router.route('/group/delete').delete(deleteFilterGroup)
-router.route('/group/merge').post(mergeGroup)
-router.route('/group/inverse').post(inverseGroup)
-router.route('/group/ungroup').post(ungroup)
+router.route('/deleteGroup').delete(deleteFilterGroup)
+router.route('/groupFilters').post(mergeGroup)
+router.route('/inverseFilter').post(inverseGroup)
+router.route('/ungroupFilters').post(ungroup)
 
 export { router }

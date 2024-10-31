@@ -5,71 +5,169 @@
   },
   "sites": [
     {
-      "site_id": 100,
-      "display_name": "PokerStars",
+      "id": 100,
+      "internal_name": "888Pocker",
+      "display_name": "888 Poker",
+      "abbreviation": "888Pocker",
+      "supports_auto_import": true,
       "icon": {
         "path": "C:\\Program Files (x86)\\PokerTracker4\\Data\\Images\\Icons\\site_100.png",
-        "title": "PokerStars icon"
-      },
-      "is_auto_import": true,
-      "is_converter": false
+        "title": "888 Poker icon"
+      }
     },
     {
-      "site_id": 200,
-      "display_name": "partypoker",
+      "id": 200,
+      "internal_name": "HorizonPokerNetwork",
+      "display_name": "Horizon Poker Network",
+      "abbreviation": "HorizonPokerNetwork",
+      "supports_auto_import": true,
       "icon": {
-        "path": "C:\\Program Files (x86)\\PokerTracker4\\Data\\Images\\Icons\\site_200.png"
-      },
-      "is_auto_import": true,
-      "is_converter": false
+        "path": "C:\\Program Files (x86)\\PokerTracker4\\Data\\Images\\Icons\\site_200.png",
+        "title": "Horizon Poker Network icon"
+      }
     },
     {
-      "site_id": 300,
-      "display_name": "Full Tilt",
+      "id": 300,
+      "internal_name": "partypoker",
+      "display_name": "partypoker",
+      "abbreviation": "partypoker",
+      "supports_auto_import": true,
       "icon": {
         "path": "C:\\Program Files (x86)\\PokerTracker4\\Data\\Images\\Icons\\site_300.png",
-        "title": null
-      },
-      "is_auto_import": false,
-      "is_converter": false
+        "title": "partypoker icon"
+      }
     },
     {
-      "site_id": 400,
-      "display_name": "iPoker Network",
+      "id": 400,
+      "internal_name": "PokerSaint",
+      "display_name": "PokerSaint",
+      "abbreviation": "PokerSaint",
+      "supports_auto_import": true,
       "icon": {
         "path": "C:\\Program Files (x86)\\PokerTracker4\\Data\\Images\\Icons\\site_400.png",
-        "title": "iPoker icon"
-      },
-      "is_auto_import": true,
-      "is_converter": false
+        "title": "PokerSaint icon"
+      }
     },
     {
-      "site_id": 500,
-      "display_name": "Everest",
+      "id": 500,
+      "internal_name": "SwCPoker",
+      "display_name": "SwC Poker",
+      "abbreviation": "SwCPoker",
+      "supports_auto_import": true,
       "icon": {
-        "path": "C:\\Program Files (x86)\\PokerTracker4\\Data\\Images\\Icons\\site_500.png"
-      },
-      "is_auto_import": false,
-      "is_converter": false
+        "path": "C:\\Program Files (x86)\\PokerTracker4\\Data\\Images\\Icons\\site_500.png",
+        "title": "SwC Poker icon"
+      }
     },
     {
-      "site_id": 600,
-      "display_name": "OnGame",
+      "id": 600,
+      "internal_name": "9Stacks",
+      "display_name": "9Stacks",
+      "abbreviation": "9Stacks",
+      "supports_auto_import": true,
       "icon": {
-        "path": "C:\\Program Files (x86)\\PokerTracker4\\Data\\Images\\Icons\\site_600.png"
-      },
-      "is_auto_import": false,
-      "is_converter": false
+        "path": "C:\\Program Files (x86)\\PokerTracker4\\Data\\Images\\Icons\\site_600.png",
+        "title": "9Stacks icon"
+      }
     },
     {
-      "site_id": 700,
-      "display_name": "GTech G2 (Boss)",
+      "id": 700,
+      "internal_name": "LatAmPokerNetwork",
+      "display_name": "LatAm Poker Network",
+      "abbreviation": "LatAmPokerNetwork",
+      "supports_auto_import": true,
       "icon": {
         "path": "C:\\Program Files (x86)\\PokerTracker4\\Data\\Images\\Icons\\site_700.png",
+        "title": "LatAm Poker Network icon"
+      }
+    },
+    {
+      "id": 800,
+      "internal_name": "PeoplePoker",
+      "display_name": "People's Poker",
+      "abbreviation": "PeoplePoker",
+      "supports_auto_import": true,
+      "icon": {
+        "path": "C:\\Program Files (x86)\\PokerTracker4\\Data\\Images\\Icons\\site_800.png",
+        "title": "People's Poker icon"
+      }
+    },
+    {
+      "id": 900,
+      "internal_name": "PokerStars",
+      "display_name": "PokerStars",
+      "abbreviation": "PokerStars",
+      "supports_auto_import": true,
+      "icon": {
+        "path": "C:\\Program Files (x86)\\PokerTracker4\\Data\\Images\\Icons\\site_900.png",
         "title": "PokerStars icon"
-      },
-      "is_auto_import": true,
-      "is_converter": false
+      }
+    },
+    {
+      "id": 1000,
+      "internal_name": "Winamax",
+      "display_name": "Winamax",
+      "abbreviation": "Winamax",
+      "supports_auto_import": true,
+      "icon": {
+        "path": "C:\\Program Files (x86)\\PokerTracker4\\Data\\Images\\Icons\\site_1000.png",
+        "title": "Winamax icon"
+      }
+    },
+    {
+      "id": 1100,
+      "internal_name": "GTECHG2",
+      "display_name": "GTECH G2 (Boss)",
+      "abbreviation": "GTECHG2",
+      "supports_auto_import": true,
+      "icon": {
+        "path": "C:\\Program Files (x86)\\PokerTracker4\\Data\\Images\\Icons\\site_1100.png",
+        "title": "GTECH G2 (Boss) icon"
+      }
+    },
+    {
+      "id": 1200,
+      "internal_name": "MergeNetwork",
+      "display_name": "Merge Network",
+      "abbreviation": "MergeNetwork",
+      "supports_auto_import": true,
+      "icon": {
+        "path": "C:\\Program Files (x86)\\PokerTracker4\\Data\\Images\\Icons\\site_1200.png",
+        "title": "Merge Network icon"
+      }
+    },
+    {
+      "id": 1300,
+      "internal_name": "pokerhigh",
+      "display_name": "pokerhigh",
+      "abbreviation": "pokerhigh",
+      "supports_auto_import": true,
+      "icon": {
+        "path": "C:\\Program Files (x86)\\PokerTracker4\\Data\\Images\\Icons\\site_1300.png",
+        "title": "pokerhigh icon"
+      }
+    },
+    {
+      "id": 1400,
+      "internal_name": "RAPoker",
+      "display_name": "RAPoker",
+      "abbreviation": "RAPoker",
+      "supports_auto_import": true,
+      "icon": {
+        "path": "C:\\Program Files (x86)\\PokerTracker4\\Data\\Images\\Icons\\site_1400.png",
+        "title": "RAPoker icon"
+      }
+    },
+    {
+      "id": 1500,
+      "internal_name": "WinningPokerNetwork",
+      "display_name": "Winning Poker Network",
+      "abbreviation": "WinningPokerNetwork",
+      "supports_auto_import": true,
+      "icon": {
+        "path": "C:\\Program Files (x86)\\PokerTracker4\\Data\\Images\\Icons\\site_1500.png",
+        "title": "Winning Poker Network icon"
+      }
     }
   ]
 }

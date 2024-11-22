@@ -1,0 +1,16 @@
+{
+  "response": {
+    "code": 200,
+    "message": "OK"
+  },
+  "availableDatabases": [
+    {
+      "displayName": "PokerTracker 4 Database",
+      "database": "poker-tracker-4",
+      "isDefault": true,
+      "isActive": true,
+      "arePlayedHandsImported": true,
+      "areObservedHandsImported": true
+    }
+  ]
+}

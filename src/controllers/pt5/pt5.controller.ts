@@ -14,6 +14,7 @@ import holecards from '../../mocks/holecards.json'
 import tags from '../../mocks/tags.json'
 import players from '../../mocks/players.json'
 import searchPlayers from '../../mocks/searchPlayers.json'
+import availableDatabases from '../../mocks/availableDatabases.json'
 
 const successResponse = {
   response: {
@@ -51,6 +52,11 @@ export const saveSetting = (req: Request, res: Response) => {
   okay(res, successResponse)
 }
 
+export const saveSettings = (req: Request, res: Response) => {
+  const { key, value } = req.body
+  okay(res, successResponse)
+}
+
 export const getSetting = (req: Request, res: Response) => {
   const { key } = req.body
   okay(res, { ...successResponse, value: generateRandomValue() })
@@ -63,9 +69,14 @@ export const logMessage = (req: Request, res: Response) => {
 
 export const getSettings = (req: Request, res: Response) => {
   const { category, id } = req.body
+  if (!category || !id) return badRequest(res, { message: 'Invalid request' })
 
   if (category === 'Site') {
-    return okay(res, mockSettings)
+    const settings = mockSettings.settings.find((s) => s.id === id)
+
+    if (!settings) return badRequest(res, { message: 'Site not found' })
+
+    return okay(res, { settings })
   }
 
   if (category === 'Reporting') {
@@ -229,4 +240,8 @@ export const setActivePlayer = (req: Request, res: Response) => {
   const { player_id } = req.body
 
   okay(res, { response: successResponse })
+}
+
+export const getAvailableDatabases = (req: Request, res: Response) => {
+  okay(res, availableDatabases)
 }

@@ -31,6 +31,8 @@ import {
   getPlayerList,
   searchPlayerList,
   setActivePlayer,
+  saveSettings,
+  getAvailableDatabases,
 } from './pt5.controller'
 
 const router = express.Router()
@@ -40,6 +42,7 @@ router.route('/getSupportedSites').get(getSupportedSites)
 router.route('/triggerAutoImport').put(triggerAutoImport)
 router.route('/openWindow').put(openWindow)
 router.route('/saveSetting').post(saveSetting)
+router.route('/saveSettings').post(saveSettings)
 router.route('/getSetting').get(getSetting)
 router.route('/logMessage').post(logMessage)
 router.route('/getSettings').post(getSettings)
@@ -65,5 +68,6 @@ router.route('/deleteTag').delete(deleteTag)
 router.route('/getPlayerList').post(getPlayerList)
 router.route('/searchPlayerList').post(searchPlayerList)
 router.route('/setActivePlayer').put(setActivePlayer)
+router.route('/getAvailableDatabases').get(getAvailableDatabases)
 
 export { router }

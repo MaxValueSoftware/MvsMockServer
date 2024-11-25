@@ -33,6 +33,7 @@ import {
   setActivePlayer,
   saveSettings,
   getAvailableDatabases,
+  messageBoxAction,
 } from './pt5.controller'
 
 const router = express.Router()
@@ -69,5 +70,6 @@ router.route('/getPlayerList').post(getPlayerList)
 router.route('/searchPlayerList').post(searchPlayerList)
 router.route('/setActivePlayer').put(setActivePlayer)
 router.route('/getAvailableDatabases').get(getAvailableDatabases)
+router.route('/messageBoxAction').post(messageBoxAction)
 
 export { router }

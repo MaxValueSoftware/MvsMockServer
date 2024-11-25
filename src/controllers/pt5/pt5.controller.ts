@@ -245,3 +245,9 @@ export const setActivePlayer = (req: Request, res: Response) => {
 export const getAvailableDatabases = (req: Request, res: Response) => {
   okay(res, availableDatabases)
 }
+
+export const messageBoxAction = (req: Request, res: Response) => {
+  const { event_name, payload } = req.body
+
+  okay(res, { response: successResponse })
+}
